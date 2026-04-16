@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "14efcbc0d3c146a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2316ebbbbd3dc65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "601d098a4e1e5a40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Работа/Бизнес_Процессы/Бизнес_процесс_ТКП.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Бизнес_процесс_ТКП"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3d0c71dc15960915",
+    "type": "split",
+    "children": [
+      {
+        "id": "72011506de022835",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ba6b92f2658fcc9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "a791aa0c5675ef3d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "ed654dfeaacb356f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295.5
+  },
+  "right": {
+    "id": "dac50af29a94a937",
+    "type": "split",
+    "children": [
+      {
+        "id": "44f20d3d2cad5d7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e7bd9e3c6e03d49",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "3a15b29f8edc6deb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "dace2f2ef68086ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "68779e4fdfa64f49",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "6e37c4ce65f02de4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "601d098a4e1e5a40",
+  "lastOpenFiles": [
+    "10_Работа/Бизнес_Процессы/Бизнес_процессы.md",
+    "10_Работа/Бизнес_Процессы/Работа_с_договорами.md",
+    "10_Работа/Бизнес_Процессы/Бизнес_процесс_ТКП.md",
+    "20_Проекты/Цех_Проектов.md",
+    "00_Система/Оглавление.md",
+    "90_Архив/РСС_Контекст/РСС_Афоризмы.md",
+    "2026-04-16.md",
+    "00_Система/Скиллы_ИИ.md",
+    "Без названия 1.md",
+    "Без названия.md",
+    "Без названия 2.canvas",
+    "Без названия 1.canvas",
+    "Без названия.canvas",
+    "00_Система/Obsidian/Плагины.md",
+    "00_Система/Obsidian/Вставка ссылок.md",
+    "00_Система/Obsidian/Альтернативы Обсидиан.md",
+    "README_AI.md",
+    "20_Проекты/Разработка_Delphi/Localization/localization_guide.md",
+    "20_Проекты/Разработка_Delphi/Localization/Summary.md",
+    "90_Архив/История_изменений.md",
+    "90_Архив/Манифесты_АИ/agents.md",
+    "00_Система/Инструменты/Инструменты_МСР.md",
+    "90_Архив/История_Разработки/Процесс_работы.md",
+    "10_Работа/Программирование/стандарты/Стандарты_Разработки.md",
+    "10_Работа/Программирование/Без названия.md",
+    "10_Работа/Программирование/стандарты",
+    "10_Работа/Программирование/стандарты/Стандарты.md",
+    "10_Работа/Сети_и_Связь/Обслуживание_RouteRich.md",
+    "00_Система/Obsidian/Горячие клавиши Obsidian.md",
+    "00_Система/Obsidian/Шрифты.md",
+    "10_Работа/РСС/Рабочие/Шаблон заказа V02.canvas",
+    "10_Работа/РСС/Рабочие/Расположение шаблонов (обновить!).canvas",
+    "10_Работа/РСС/Рабочие/Запуск заказа.canvas",
+    "20_Проекты/РСС/Ассеты/ФБК_3251-ТКП.png",
+    "20_Проекты/РСС/Ассеты/ФБК_3251.png",
+    "90_Архив/РСС_Контекст/РСС_Pasted_image.png",
+    "90_Архив/РСС_Контекст/РСС_Pasted image 20250815142753.png",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Промышленный/Трехкомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Промышленный/Однокомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Подводный/Трехкомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Подводный/Однокомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Подводный/Двухкомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Общего назначения/Трехкомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Общего назначения/Однокомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Миниатюрный/Трехкомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Миниатюрный/Однокомпонентный",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/T220-C.05.05_1.jpg",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/SVProg_1.jpg",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/SV01B_1.jpg",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/SV01-02_1.jpg",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/SV01-02B_1378866566.jpg",
+    "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/SV01-02B_1.jpg",
+    "30_Библиотека/Книги/РСС_Книга/Рабочие/Шаблон заказа V02.canvas",
+    "30_Библиотека/Книги/РСС_Книга/Рабочие/Расположение шаблонов (обновить!).canvas",
+    "30_Библиотека/Книги/РСС_Книга/Рабочие/Запуск заказа.canvas"
+  ]
+}
