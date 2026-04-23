@@ -1,0 +1,774 @@
+BROKEN LINKS (58):
+C:\Oburec\Antigravity\Projects\AGrav\README_AI.md -> Path.md
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Оглавление.md -> ../10_Работа/РСС/Рабочие/Ссылки%20по%20работе.md
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Оглавление.md -> ../10_Работа/Оборудование/Датчики/Общая%20информация/НСХ%20термодатчиков.md
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Скиллы_ИИ.md -> file:///c:/Oburec/Antigravity/Projects/AGrav/30_Библиотека/Каталог_Книг.md
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Скиллы_ИИ.md -> file:///c:/Oburec/Antigravity/Projects/AGrav/00_Система/Инструменты/Метод_Парсинга_Книг.md
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Скиллы_ИИ.md -> file:///c:/Oburec/Antigravity/Projects/AGrav/00_Система/Relationships.md
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Скиллы_ИИ.md -> file:///c:/Oburec/Antigravity/Projects/AGrav/00_Система/Оглавление.md
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Личные_Системы.md -> ./Сети_и_Связь/DPI_и_Обход_Блокировок.md
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Личные_Системы.md -> ./Сети_и_Связь/Инструкция_VLESS_Reality.md
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Личные_Системы.md -> ./Сети_и_Связь/Обслуживание_RouteRich.md
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Личные_Системы.md -> ./Сети_и_Связь/Параметры_Сети.md
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Личные_Системы.md -> ./Сети_и_Связь/hiplet-79224_138.124.85.38.md
+C:\Oburec\Antigravity\Projects\AGrav\90_Архив\История_изменений.md -> [[Обслуживание_RouteRich 192.168.2.2]]
+C:\Oburec\Antigravity\Projects\AGrav\scratch\raw_extraction\other_tech_raw.md -> [[upstreams]]
+C:\Oburec\Antigravity\Projects\AGrav\scratch\raw_extraction\other_tech_raw.md -> [[server.listeners]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Control_Valve_Handbook_RU.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\ПО плагины к Recorder\Oscillogram.md -> [[Pasted image 20250815142816.png]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Рабочие\Идеи для автоматизации.md -> [[План]]
+C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Рабочие\Орг. доработки в отделе.md -> [[текст для орг доработок.md]]
+C:\Oburec\Antigravity\Projects\AGrav\20_Проекты\SQLSensorsDB\Summary.md -> [[../../../10_Работа/Оборудование/Датчики/Notes]]
+C:\Oburec\Antigravity\Projects\AGrav\20_Проекты\SQLSensorsDB\Summary.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\20_Проекты\SQLSensorsDB\Docs\Roadmap.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Сети_и_Связь\🌐_Сети_и_Связь.md -> [[20_Инфраструктура_и_Серверы/Hiplet_138.124.85.38]]
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Сети_и_Связь\10_Теория_и_Методы\DPI_и_Методы_Обхода.md -> [[20_Инфраструктура_и_Серверы/Hiplet_138.124.85.38]]
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Сети_и_Связь\20_Инфраструктура_и_Серверы\Сервисы_и_Доступы.md -> [[Hiplet_138.124.85.38]]
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Сети_и_Связь\30_Устройства_и_Клиенты\Настройка_VLESS_Reality.md -> [[20_Инфраструктура_и_Серверы/Hiplet_138.124.85.38]]
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Сети_и_Связь\40_Энциклопедия_Обхода\12_Настройка_VLESS_Reality.md -> ../../00_Система/Персональные%20данные/Аккаунты.md
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Сети_и_Связь\40_Энциклопедия_Обхода\Энциклопедия_MOC.md -> ../../00_Система/Скиллы_ИИ.md
+C:\Oburec\Antigravity\Projects\AGrav\15_Дом\Сети_и_Связь\40_Энциклопедия_Обхода\Энциклопедия_MOC.md -> ../../00_Система/Код_Стандарты.md
+C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Заказчики\Жуковский_Веломотозавод.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Заказчики\Каталог_Заказчиков.md -> [[Домены_Знаний.md]]
+C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Заказчики\Каталог_Заказчиков.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Заказчики\Шаблон_Карточки_Заказчика.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\10_Работа\РСС\Рабочие\Идеи для автоматизации.md -> [[План]]
+C:\Oburec\Antigravity\Projects\AGrav\10_Работа\РСС\Рабочие\Орг. доработки в отделе.md -> [[текст для орг доработок.md]]
+C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Каталог_Датчиков.md -> [[Домены_Знаний.md]]
+C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Каталог_Датчиков.md -> [[Навигация.md]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\Вставка ссылок.md -> [[ ]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\Вставка ссылок.md -> [[Маркетинг]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\Вставка ссылок.md -> [[Маркетинг]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\Вставка ссылок.md -> [[Маркетинг]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\Вставка ссылок.md -> [[Маркетинг^20231001]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\Вставка ссылок.md -> [[Название заметки]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\Вставка ссылок.md -> [[Чек-лист]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\Плагины.md -> [[Pasted image 20250522124622.png]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\План работ по внедрению Obsidian.md -> [[Таблица датчики.md]]
+C:\Oburec\Antigravity\Projects\AGrav\00_Система\Obsidian\План работ по внедрению Obsidian.md -> [[Элементы управления.md]]
+
+DUPLICATES (209 sets):
+Hash d41d8cd98f00b204e9800998ecf8427e:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Глоссарий\Перечень стендов.md
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Проекты\Автомобильные испытания.md
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Рабочие\Работа с договорами.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Бизнес_Процессы\Работа_с_договорами.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\Общая информация\Расчеты тензодатчиков.md
+Hash 6a4e1d7838451f57584b77775596bbab:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Modal_Testing\Attachments\image_p4_0.jpeg
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Modal_Testing\Attachments\image_p5_0.jpeg
+Hash 3440bf42afba2952bf241a3186d490b7:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Modal_Testing\Attachments\image_p18_0.jpeg
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Modal_Testing\Test\Legacy\Attachments\image_p1_0.jpeg
+Hash b9bbc6d46d7ba29990421dd4d83ba014:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Modal_Testing\Attachments\image_p18_1.jpeg
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Modal_Testing\Test\Legacy\Attachments\image_p1_1.jpeg
+Hash 2d9d7f7b0a5359f6761bb947edcf33ba:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Modal_Testing\Attachments\image_p18_2.jpeg
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Modal_Testing\Test\Legacy\Attachments\image_p1_2.jpeg
+Hash 7818f952ef1a424c9b96fa49c4daed1b:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p17_3.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Pilot_Source\Attachments\asset_p17_3.png
+Hash a80d85853ec659c5fe3f3857d2b7ab8c:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p18_4.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Pilot_Source\Attachments\asset_p18_4.png
+Hash 2fa1110372091e6bbb9d06689d4e3047:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p12_12.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p12_12.png
+Hash abcf6f1795b80932300b76212e466731:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p13_13.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p13_13.png
+Hash cee9d29e0a210880a8569a96e3de2992:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p14_14.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p14_14.png
+Hash ea191554862be1691fc83402569b2441:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p14_15.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p14_15.png
+Hash 52a073f0b171a5ea18e87101b2688134:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p1_1.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p1_1.png
+Hash 7c1b8f995748c251e16855eeba6dd87c:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p1_2.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p1_2.png
+Hash c56e120165ba6b08b44aa936039bc788:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p1_3.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p1_3.png
+Hash 35b942fe4a4c94fdc07746f8bb35b9ab:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p20_16.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p20_16.png
+Hash 2a254671686300838ab2e69dda66b820:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p21_17.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p21_17.png
+Hash 9b65cb75d5336c89340fe2fad293fed6:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p23_22.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p23_22.png
+Hash 7fd5c50f06444b2928acf3bc96d9ff50:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p23_23.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p23_23.png
+Hash d80911c3ee08411a6a15f05278bb4f98:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p24_24.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p24_24.png
+Hash fd4b22b4334086659ad16b8dc0108ab8:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p24_25.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p24_25.png
+Hash 8187f77b106c79dd0ddcd7790f613f56:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p25_26.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p25_26.png
+Hash 730110d4426d33e0a0bc312f9e815d4c:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p26_27.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p26_27.png
+Hash ef917986a8d0f3fd6c9cf54e605ab433:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p27_28.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p27_28.png
+Hash 825a42f5d1a4f5db4a8ddda92f3c1405:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p27_29.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p27_29.png
+Hash 56e6b5dbadc2b9e4260627fc876e153f:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p28_30.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p28_30.png
+Hash 5fae4f2bd53e8e0fada451559e651eba:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p29_31.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p29_31.png
+Hash 04a68793c3499872ce0520ba9a526821:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p29_32.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p29_32.png
+Hash 1c671e499ec5f66d839c3a2896a3441a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p30_33.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p30_33.png
+Hash 777100e7d07782c40872eae58b44a863:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p32_34.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p32_34.png
+Hash feea18f32f083ebd55eb2e873b7df7a1:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p33_35.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p33_35.png
+Hash 23384b800823f9e4f2c8e34ce3cdd0e3:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p35_36.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p35_36.png
+Hash 45a013670dd607f35a666535deeb51ff:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p36_37.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p36_37.png
+Hash 81e2e1e7615d7295ca623c6ef3b35d41:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p37_38.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p37_38.png
+Hash 506a522e13da762441c3e85efd0115f9:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p38_39.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p38_39.png
+Hash 99f86612e1522b3fb979a517e86a8549:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p38_40.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p38_40.png
+Hash 3db969bb3bc4db9e6e34b6985f66763f:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p50_41.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p50_41.png
+Hash 4d6aa7423ff09d01c5b8283d149dfa03:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p5_4.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p5_4.png
+Hash 57c0670914f6a7e4d459a28e1902ac6a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p5_5.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p5_5.png
+Hash fdc3e243eaa9a96fb1c0412302f55732:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p6_6.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p6_6.png
+Hash 67d6f230e31f0bcb7b34c8452a0dc070:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p6_7.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p6_7.png
+Hash d440045feb864c1d00d18c0ca9c3a42e:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p6_8.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p6_8.png
+Hash e33e3508e70dd899c8b648b589d688d0:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p7_10.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p7_10.png
+Hash 781f232fabcbb5c57d91859cffb6d6ae:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p7_9.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p7_9.png
+Hash 073b6e6cb74ef37ee0cd2b3db8b9f644:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p8_11.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk5_Source\Attachments\asset_p8_11.png
+Hash 037fd21903b5a0fd95961c2a3c4119c4:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p23_1.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk4_Source\Attachments\asset_p23_1.png
+Hash ff511f0f082a044c8ef9d79b59492b67:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p30_19.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk4_Source\Attachments\asset_p30_19.png
+Hash 8e507f75a3cee084b550fc95a774adca:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p44_80.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk4_Source\Attachments\asset_p44_80.png
+Hash 35d773d0d9a6c2d19669a705a261a57a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p50_81.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk4_Source\Attachments\asset_p50_81.png
+Hash 86509dc05ec87b45e69504cf220a7de1:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p10_11.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p10_11.png
+Hash 4675a0ef82fa74600ea5404e49f55598:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p11_12.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p11_12.png
+Hash 3a527f94efe8f6297f97823e2a6c36ca:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p11_13.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p11_13.png
+Hash c3c35973bb8e5650da59159a7ec2d242:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p12_14.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p12_14.png
+Hash 824b1075dc3431c5b9875e5666dccfe3:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p13_15.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p13_15.png
+Hash 6f2eeb9850454c7de8a21bd50f00cea0:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p13_16.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p13_16.png
+Hash 4103b59648560ee22b70ba5ea979526a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p14_17.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p14_17.png
+Hash 1251ae081b566e7b5603abe3e1c29c78:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p15_18.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p15_18.png
+Hash d2ed5c87eaa4d552930778cd95bcda6b:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p15_19.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p15_19.png
+Hash d6294026df65a338e986b760f529e6b1:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p15_20.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p15_20.png
+Hash 1809a007aa6de17dbd1a36e9b4a79a95:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p16_21.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p16_21.png
+Hash 5dbb48def87f2095000797c5735bb331:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p16_22.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p16_22.png
+Hash 536ab4492566c3e2397564e86245b45a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p18_23.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p18_23.png
+Hash d6b7c27e88ef22b7899b5b76e61a087d:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p18_24.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p18_24.png
+Hash 8b9c6a46bd930d5c7cc533f95c8bc5cf:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p19_25.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p19_25.png
+Hash 71922ee3e5ff6f34fa2dbd7d7d3cfcae:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p20_26.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p20_26.png
+Hash 1ed03f96cba8344358ec16a170523807:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p21_27.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p21_27.png
+Hash 23b44ea7c4a1f81207c6652707194701:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p22_28.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p22_28.png
+Hash 3865f74c061cf784f3815170a058dcd3:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p23_29.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p23_29.png
+Hash 6206c25a46c7dd377076195ad3f974e0:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p24_30.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p24_30.png
+Hash cefeef5273ff820e077d755339cbc93c:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p25_31.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p25_31.png
+Hash e1162866bd6c21742ed99467e0850bb4:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p26_32.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p26_32.png
+Hash 48f189ab6f19dba17d00f13497f9d33a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p26_33.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p26_33.png
+Hash 04aa25e4143ce1cecb73cfe3214ccd48:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p27_34.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p27_34.png
+Hash d6df1cb5019ad1b94a30cdb656d04ef9:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p27_35.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p27_35.png
+Hash bbc9ca0eaaf6a6224d89f2999dec8acb:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p28_36.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p28_36.png
+Hash f54a438427d44ec3f2b8f61c28149c43:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p29_37.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p29_37.png
+Hash d4104419e9598f1a956f3e5a039ca526:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p29_38.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p29_38.png
+Hash c0fe41952917bf914f026a0740ec9f25:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p2_1.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p2_1.png
+Hash c0720be5a16360ccf08b99e68d97896f:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p32_39.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p32_39.png
+Hash 5a28c2a3040f9285f2c0e0f913411d86:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p33_40.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p33_40.png
+Hash b38953f0372a3acda6610cc275780b7c:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p34_41.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p34_41.png
+Hash 22a245834287543b72c782529046733a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p34_42.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p34_42.png
+Hash 60928207ca3109f672131368a9520b85:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p35_43.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p35_43.png
+Hash fc4b8f815a4ce4e33a1e7ed2f4290129:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p35_44.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p35_44.png
+Hash 737a772d2d2544e55e96db1a11f93519:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p35_45.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p35_45.png
+Hash adcb16b1493f4dfa645733fe9805d263:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p36_46.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p36_46.png
+Hash c39b76db06c8da1a69c6a1980b86e8a2:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p36_47.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p36_47.png
+Hash 419f311db6236d00af620354543a4aef:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p37_48.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p37_48.png
+Hash fc1c624a939b0bbad4306f95e987188a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p37_49.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p37_49.png
+Hash 380c1c31193299bec449c5cde4fc9dcc:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p38_50.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p38_50.png
+Hash 99e2b24154369f550d518f15da47de58:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p38_51.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p38_51.png
+Hash 23ac88323431b20143d86faf1f8ecfd4:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p40_52.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p40_52.png
+Hash c04dc07684e867eebbd829d82b04665e:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p6_2.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p6_2.png
+Hash 6309701146de2485d301fa10e1459310:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p6_3.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p6_3.png
+Hash 2fe502306be7856c5ac7d452cc464166:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p7_4.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p7_4.png
+Hash 0de739f6952360e3f520b9cd832b939e:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p7_5.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p7_5.png
+Hash 914c5d7623ca6592033f840c63bde6ed:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p7_6.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p7_6.png
+Hash 6c8b3ac8795ca9179cab18e1834b3c71:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p8_7.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p8_7.png
+Hash bf72f4bea89fb7dc7aa0b2d691f8cb3c:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p8_8.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p8_8.png
+Hash 26091e74776aa33d4d6727821b71df59:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p9_10.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p9_10.png
+Hash d4862c7b5428dab416ffef5bf66ca504:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p9_9.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk3_Source\Attachments\asset_p9_9.png
+Hash 3abb69658ccb452fdccd30275b50333e:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p13_11.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p13_11.png
+Hash 4cdee71546e783f5d771f9d06e54358d:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p18_12.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p18_12.png
+Hash d1df3597354c40c3218be103e7918289:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p19_13.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p19_13.png
+Hash e83be4a34b2728871322e8dcde418226:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p20_14.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p20_14.png
+Hash 5ada454acdfacaff8baec4068e906d9e:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p27_15.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p27_15.png
+Hash 5377f4b49140573ffe3eaa31256099a3:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p29_16.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p29_16.png
+Hash 1ce8c67f255722d0d8c422b8c1bd8f7b:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p2_2.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p2_2.png
+Hash 6b6519816272755ee01425cd59a89212:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p3_3.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p3_3.png
+Hash b0d441d16141b0d02fd0726e9dc1db3f:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p4_4.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p4_4.png
+Hash c1704bcf3114c863a3a553c1541339de:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p5_6.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p5_6.png
+Hash 411952120fd9692d7d7928774f449957:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p5_7.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p5_7.png
+Hash 5dc32a752e1a12fe988bb00c7b2bbbbe:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p5_8.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p5_8.png
+Hash 875c7deb9b1e9042601d0ecffd5a09eb:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p6_9.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p6_9.png
+Hash 4f0288ac8b6e907e6c8b6d4361254f5a:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Attachments\asset_p8_10.png
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\Control_Valve_RU\Chunk2_Source\Attachments\asset_p8_10.png
+Hash 42e669406f1444962302aaabb3281329:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Глоссарий\Бизнес процесс ТКП.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Бизнес_Процессы\Бизнес_процесс_ТКП.md
+Hash adc8e07195cc5576e3fa5bfd5dca10d2:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Глоссарий\Бизнес процессы.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Бизнес_Процессы\Бизнес_процессы.md
+Hash 6c0732536c4ee1f0d2c62c8a0862237c:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Рабочие\Идеи для автоматизации.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\РСС\Рабочие\Идеи для автоматизации.md
+Hash 7214e65bcde06146b4935f744344c5c4:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Рабочие\Орг. доработки в отделе.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\РСС\Рабочие\Орг. доработки в отделе.md
+Hash 9f7d1b4de2c012925f93526c12d4db79:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Рабочие\Примеры не системной работы.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\РСС\Рабочие\Примеры не системной работы.md
+Hash 3382a18045b8d5156552446d18bd596f:
+  - C:\Oburec\Antigravity\Projects\AGrav\30_Библиотека\Книги\РСС_Книга\Рабочие\Сложность проекта.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\РСС\Рабочие\Сложность проекта.md
+Hash d39eec431b7c133c098411118f9864fb:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\0V6A0014-2-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\0V6A0014-2.jpg
+Hash 698e2e12a5022206974b5657a0c616e1:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\0V6A0050-2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\0V6A0050.jpg
+Hash e3685cb886e0d47758133d63bb9f18e5:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AD07-01.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AD07-011710612888.jpg
+Hash a8298d5cb3b994d87e4d657ee02ba1c2:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AD07-XX.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AD07-XX188514079.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AD07-XX60866438.jpg
+Hash 7c10991e27cca829f305805ab8f3f848:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AD08XX.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AD08XX1683664487.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AD08XX306149493.jpg
+Hash b39c8433ea46ab363104c3f0f60bfb2d:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AG02-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AG02-01_1554990630.jpg
+Hash 8008dc98b3d87722a3d009f57bb8a138:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AG02-3_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AG02-3_11045651597.jpg
+Hash 183ad6d4fbbc05accbfe762c00a2e469:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AG04-01_1317923353.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AG04-01_1853331955.jpg
+Hash 6bef0909079c5c7cfdc1fdd7e4c10532:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM01-1-2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM01-2.jpg
+Hash a22b5181338e3078c26e9be9ae816b4d:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM06-01-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM06-02-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM06-03-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM06-1.jpg
+Hash de54c09277e404ff52b20ce3a8bc864b:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM11-01-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM11-1.jpg
+Hash e2c9b200bdeaf5d1894bf8b9394b4050:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM13-011360859029.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AM13-012082197170.jpg
+Hash 1c2365776520300dd6085418944c3f60:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP1037-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP1037-01_11258688567.jpg
+Hash 669c8a918703fea7cbce6db4b7614f57:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP1038_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP1038_11321190116.jpg
+Hash 2624940f507dcc4b3b5fc1a35b1b2f76:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2006-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2006-01_11369351053.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2006-01_1398673085.jpg
+Hash 1f558f4f426a2b43ca87354c07dd1e32:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2006-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2006-XX_1132031902.jpg
+Hash 43dd9c82e8685790b488c7fffdb657cc:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_11190983082.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_11435042706.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_11633891556.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_11717206313.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_11786208123.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_12031860880.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_12137459422.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2022_1384458206.jpg
+Hash 6147c027415c74062c4723a8f2cdd7b5:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2028-XX-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2028-XX-01_11160676694.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2028-XX-01_11948510376.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2028-XX-01_12144098989.jpg
+Hash 87be211d0658c59c055c77d98aac7b9c:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2028-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2028-XX_1738984098.jpg
+Hash ebacd79a1464024c84511e6f1a50cdf7:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2030_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2030_11804616120.jpg
+Hash f8db56dbe2d40602670ac017a82e5505:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2031_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2031_11997798990.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2031_1607929071.jpg
+Hash 9bf4deec6cce2fdc698e549aaa63ea8e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2034-XX-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2034-XX-01_11095480241.jpg
+Hash 970e7a1d19d720f604555848ca7fe8c5:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2034-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2034-XX_11091050183.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2034-XX_1122468262.jpg
+Hash 6dbc0afed9b69126188813baa10a6340:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2034_91910194086.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2034_9332339668.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2034_9771450306.jpg
+Hash 602bc638d625dc458121617b6b98bd62:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX-01_1404277174.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX-01_1557852876.jpg
+Hash a2dcd64d7163437e8e52045117f602a9:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX-02_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX-02_11762802894.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX-02_1263087109.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX-02_1881383922.jpg
+Hash be25a6151bd01b1cb4b3fe8dc94f5841:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX_11356184872.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX_11512565793.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035-XX_11743227619.jpg
+Hash 001c802a5238bf7a76ded3b0b9278729:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035T-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035T-01_171226296.jpg
+Hash 23ad24ffcafa828e91ffab9c540d1aad:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035T_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2035T_1476343789.jpg
+Hash 8c6e04539eeefdb3f40b7d1bf7742424:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-01_11139522774.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-01_12017303246.jpg
+Hash 80bdae803aec62ebbffe960a748a9f4d:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-02_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-02_11343331223.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-02_12141143510.jpg
+Hash 1b9aabe44d044c8570cf024446d5d1e4:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-03_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-03_11590162840.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX-03_12081248577.jpg
+Hash 8c282f6ebdcb807054d1c472e8338cbc:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX_1302930732.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2036-XX_174309547.jpg
+Hash 998de9f23c54c249a40446f9d8ac7f0e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-01_11138728257.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-01_11499446695.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-01_11797856804.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-01_1685624846.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-01_1947778091.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-01_1979051946.jpg
+Hash 9cc5dee5d26465a8adf245bf87178abd:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-02_11166458354.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-02_11624458238.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-02_11775736792.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-02_1696399945.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX-02_1877802853.jpg
+Hash 4064ca3cfde3b2b60185f0c7838de286:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX_1260859064.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2037-XX_1585639242.jpg
+Hash 0c6550cf407adfe74589862a51169c8e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2038-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2038-XX_11119632880.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2038-XX_1569064783.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2038-XX_1747368376.jpg
+Hash 07363d6a2e7b6bd60625013746799252:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2038P-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2038P-XX_11031554305.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2038P-XX_11947611429.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2038P-XX_1677526411.jpg
+Hash 1e6deeec859df922551526c67e08d549:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2043-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2043-XX_1337293681.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2043-XX_1359960372.jpg
+Hash 7ede6f729e1aead578bc2094d01fdf77:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2045_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2045_11555040146.jpg
+Hash ad45bd11f0f28d101c2f987c57f2c58e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2050-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2050-XX_11030473685.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2050-XX_11517698755.jpg
+Hash e0582d086bd255cc058774d76b666dc7:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2078-XX-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2078-XX-01_1353091202.jpg
+Hash 1580f3049c3dadb53408a2578ac9d1d2:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2081-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2081-XX_11754134024.jpg
+Hash 9b616da5023b15a163addb8c7a67b8af:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2082M-XX_1527554634.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2082M-XX_1802568159.jpg
+Hash 7cc7f009c8f59f1ed1b15c6a2a655095:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2085-XX-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2085-XX-01_11380088000.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2085-XX-01_11981420647.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2085-XX-01_1908063034.jpg
+Hash 96d4504c434c2cf37ad6033bc4b62618:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2085-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2085-XX_1102987415.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2085-XX_11984920082.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2085-XX_1680232264.jpg
+Hash 97dadb423fb7b9bb0c9b7c7703ceef5e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2086-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2086-01_11118580749.jpg
+Hash ebea07e17eb18a5f172e3363ed7fdfb5:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2086-XX-02_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2086-XX-02_11908432113.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2086-XX-02_1401065645.jpg
+Hash 06e5ca3b113b798e2adb2f9f133d0c96:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2086-XX_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2086-XX_1142132664.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2086-XX_151061448.jpg
+Hash 26ca0db68d7c22fa23a45cd27abf55b1:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2089U-XX_1-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2089U-XX_1-2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2089U-XX_1-3.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2089U-XX_1.jpg
+Hash 1117d730939a948c66d8eae57905ba2e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2098-XX-02_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2098-XX-02_11933632012.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2098-XX-02_11948672149.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2098-XX-02_12015556453.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2098-XX-02_1451549545.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP2098-XX-02_1759906173.jpg
+Hash d7015afb63f0a88e7b50ff29ac703742:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP3098_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP3098_11669821261.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP3098_11805835845.jpg
+Hash fbf9de899ebe45153a42e36991fad6a0:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP5001_2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP5001_2743549081.jpg
+Hash 517f909cd4e26693ee4dc74dac0ff5a9:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP5010_01-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP5010_01-2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP5010_01-3.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP5010_01-4.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP5010_01.jpg
+Hash 34b4ecf631308b208adbf8ce40a25440:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP6013-06_1-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP6013-06_1.jpg
+Hash 9f670e9b03a26bba5ae6e5c8e189f787:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP6013_04.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP6013_041121296320.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP6013_041699663005.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP6013_04799099508.jpg
+Hash 51eeaff6327acb0e37c9aa29f7dcb231:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP62B_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AP62B_11219919384.jpg
+Hash fd7b1e3e177250b5793b758d3510ea6f:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-A1_2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-A1_21295446540.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-A1_21345885181.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-A1_2933534516.jpg
+Hash 6bf4c047ec6c5b7251f443b499ac916e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-A2_3.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-A2_31639669315.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-A2_32036251216.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-A2_3896787595.jpg
+Hash ed45b38127a8ed3a96894d12ad658b8d:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-B.2.001_1-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-B.2.001_1.jpg
+Hash 6266db1f57627f2bf4ba5deed5459852:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-B1100_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-B1100_11510040296.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-B1100_1180604968.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-B1100_1944195293.jpg
+Hash c07146c5d8360c8294ae41a620dff6e5:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-E.001_1-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-E.001_1.jpg
+Hash 1c0c284d37f4e6893454c22566c3156a:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-G.1.010_1-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-G.1.010_1.jpg
+Hash 609a01ec58b9d6acbfa6e27f04b8c5e5:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-G.2.001_1-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05-G.2.001_1.jpg
+Hash 96553dfd5b1df103780d0fac467df8e5:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05.V.0-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05.V.0.jpg
+Hash 9e8f6a84b2b41fb8a7e9c761a2e00b91:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05.V.1-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ05.V.1.jpg
+Hash bb225549c9baf44c938f1ac364527930:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ08-01_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AQ08-01_1537946013.jpg
+Hash b208da83a450310b29fff85728ffdf44:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS02_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS02_11075702279.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS02_11548895659.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS02_1443011023.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS02_1598699862.jpg
+Hash 964bf71de64e7fcb01675f1f17247bc8:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS05-01_21579569590.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS05-01_21621211772.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS05-01_2214609877.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS05-01_2421063634.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS05-01_2487988633.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS05-01_2616059260.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AS05-01_2860058794.jpg
+Hash 3d19379aac1051c735504417362d6596:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AU0101.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AU0101679318281.jpg
+Hash 083fe08aec7dbe7af80bb0d88a843076:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AU02_2-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AU02_2.jpg
+Hash af6a0c52831ad891cbf7763b659681bd:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AU0301.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AU03011816808288.jpg
+Hash 4f24c6679835dbc7cbac0e9df6d82d7e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-02_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-02_11986772706.jpg
+Hash 987fdc6507c2875d4a9f15ae7ad77765:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-03_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-03_11746562225.jpg
+Hash 8db90cdc0ec4665fbbe8e40c93727eba:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-04_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-04_1759876566.jpg
+Hash aa148171966b860a448dcabdaa1d50fd:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-05_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-05_1779048349.jpg
+Hash fdf682ea01033e647d82a9f1783556d9:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-07_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02-07_11657668633.jpg
+Hash 7cb19e195fd27a84ba639ce95f5f6f94:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\AV02_11088420138.jpg
+Hash d94d1241d0d529136e2c1fc5013c4afc:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\GT200A_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\GT200A_11048561236.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\GT200A_11242872210.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\GT200A_1177010133.jpg
+Hash e94e9943860735b5f266638b1aec0a69:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\GT300A_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\GT300A_11906891238.jpg
+Hash 620114145d723f7dee9d183bad2f35af:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\GT500A_2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\GT500A_2164280502.jpg
+Hash 29b3069007b4931a82a7701d6f5274f7:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PR-200-EX-1_011102159651.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PR-200-EX-1_011136737177.jpg
+Hash 793703599c913d2b9be78269799cda55:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2001_12000394410.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2001_1318886621.jpg
+Hash 27c013baf1adcbb1c3b3a61a1e8cb4a3:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-51-01-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-51-01-2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-51-01-3.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-51-01.jpg
+Hash 5a06961bfd749143fe4b5d92e5c3c7cd:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-51-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-51-2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-51-3.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-51.jpg
+Hash 91ac210c5e6145406b431d3569a81b6e:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-52-01-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-52-01-2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-52-01-3.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-52-01.jpg
+Hash 47dc9a67b19b219bff49839b3c84973f:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-52-1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-52-2.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-52-3.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\PS2011-XX-52.jpg
+Hash 709a7d8ee70bf2d7fac9e2553f012b9f:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\SV01-02B_1.jpg
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Оборудование\Датчики\GlobalTest\Attachments\SV01-02B_1378866566.jpg
+Hash 1e666ab91136ebef33648f67f922ea5a:
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\РСС\ЛИАЗ\Untitled.md
+  - C:\Oburec\Antigravity\Projects\AGrav\10_Работа\Бизнес_Процессы\ТКП\ЛИАЗ\Untitled.md
