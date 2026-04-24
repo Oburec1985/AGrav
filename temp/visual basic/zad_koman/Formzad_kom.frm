@@ -482,7 +482,7 @@ End Sub
 
 Private Sub Form_Load()
 'Clipboard.Clear
-Shell "priem.exe", 1
+'Shell "priem.exe", 1
 'ожидание приема результата
 
 End Sub
