@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Система/Инструменты/Python_Excel/parse_zp_image_tech.md",
+                "file": "temp/Декларации/ИНСТРУКЦИЯ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "parse_zp_image_tech"
+              "title": "ИНСТРУКЦИЯ"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 258.5
   },
   "right": {
     "id": "dac50af29a94a937",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_Работа/РСС/Рабочие/Локальный ИИ-сервер за 500к.md",
+                "file": "temp/Декларации/ИНСТРУКЦИЯ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Локальный ИИ-сервер за 500к"
+              "title": "Обратные ссылки для ИНСТРУКЦИЯ"
             }
           },
           {
@@ -113,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "temp/Декларации/ИНСТРУКЦИЯ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из ИНСТРУКЦИЯ"
             }
           },
           {
@@ -136,39 +137,25 @@
             }
           },
           {
-            "id": "68779e4fdfa64f49",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "Все свойства"
-            }
-          },
-          {
             "id": "6e37c4ce65f02de4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "temp/Декларации/ИНСТРУКЦИЯ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура ИНСТРУКЦИЯ"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,16 +168,37 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "4ba6b92f2658fcc9",
+  "active": "22d070b5b3cd3f00",
   "lastOpenFiles": [
-    "00_Система/Инструменты/Python_Excel/~$ДСИ РСС январь 2026_v01.xlsx",
-    "00_Система/Инструменты/Python_Excel/result.csv",
-    "00_Система/Инструменты/Python_Excel/ocr.log",
-    "00_Система/Инструменты/Python_Excel/select_excel_file.ps1",
-    "00_Система/Инструменты/Python_Excel/D5382010",
+    "Pasted image 20260427235932.png",
+    "temp/Декларации/~$Табл-1_готово.xlsx",
+    "temp/Декларации/Алгоритм.md",
+    "temp/Декларации/ИНСТРУКЦИЯ.md",
+    "temp/Декларации/0BC68000",
+    "temp/Декларации/94A38000",
+    "temp/Декларации/~$Табл-1.xlsx",
+    "temp/Декларации/Табл-1_готово.xlsx",
+    "temp/Декларации/97FB7000",
+    "temp/Декларации/2/~$Табл-2 _ China _ 07 04 26.xlsx",
+    "temp/Декларации/43F87000",
+    "temp/Декларации/1/~$Табл-1_готово.xlsx",
+    "temp/Декларации/08E37000",
+    "Pasted image 20260427231653.png",
+    "Pasted image 20260427231418.png",
+    "Pasted image 20260427231011.png",
+    "00_Система/Инструменты/Python_Excel/parse_zp_image_tech.md",
+    "00_Система/Инструменты/Python_Excel_ПарсерЗП.md",
+    "00_Система/Инструменты/Python_Excel/РСС_ФЕВ26_2.JPG",
+    "00_Система/Инструменты/Python_Excel/РСС_ФЕВ26_1.JPG",
+    "00_Система/Инструменты/Python_Excel/debug_name_cell.jpg",
+    "00_Система/Инструменты/Перевод_MD.md",
+    "00_Система/Инструменты/Python_Excel/Без имени.jpg",
+    "00_Система/Инструменты/Python_Excel/Без имени2.jpg",
+    "00_Система/Инструменты/Сборка_Мусора.md",
+    "00_Система/01_Персональные_Данные/Аккаунты.md",
+    "00_Система/Relationships.md",
     "00_Система/Инструменты.md",
     "90_Архив/История_изменений.md",
-    "00_Система/Инструменты/Python_Excel/run_salary_pipeline.bat",
     "00_Система/Оглавление.md",
     "90_Архив/РСС_Контекст/РСС_Афоризмы.md",
     "temp/zp/РСС_МАР26_1.JPG",
@@ -198,11 +206,7 @@
     "00_Система/Инструменты/Локализация_dxgettext.md",
     "00_Система/Инструменты/Инструменты_МСР.md",
     "00_Система/Инструменты/Парсинг_Книг.md",
-    "00_Система/Инструменты/Python_Excel/ДСИ РСС январь 2026_v01.xlsx",
-    "00_Система/Инструменты/Python_Excel/update_excel_template.py",
-    "00_Система/Инструменты/Python_Excel/ДСИ РСС март 2026_v01.xlsx",
     "00_Система/Скиллы_ИИ.md",
-    "00_Система/01_Персональные_Данные/Аккаунты.md",
     "00_Система/Obsidian/Вставка ссылок.md",
     "20_Проекты/Сетевые_Настройки/YouTube_Bypass/Summary.md",
     "15_Дом/Сети_и_Связь/40_Энциклопедия_Обхода/09_Диагностика.md",
@@ -210,25 +214,8 @@
     "15_Дом/Сети_и_Связь/🌐_Сети_и_Связь.md",
     "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С выходом по напряжению/Высокочувствительный/Однокомпонентный/Вибропреобразователь AP2006-5000-01.md",
     "00_Система/Инструменты/Python_Excel/cach/notes_parse_zp_image.md",
-    "00_Система/Инструменты/Python_Excel/parse_zp_image_tech.md",
-    "00_Система/Инструменты/Python_Excel.md",
-    "00_Система/Relationships.md",
     "00_Система/Код_Стандарты.md",
-    "00_Система/Инструменты/Python_Excel/employees.txt",
     "00_Система/Инструменты/Python_Excel/cach/implementation_plan.md",
-    "00_Система/Инструменты/Python_Excel/cach/walkthrough.md",
-    "00_Система/Инструменты/Python_Excel/img_2.jpg",
-    "00_Система/Инструменты/Python_Excel/img_1.jpg",
-    "00_Система/Инструменты/Python_Excel/debug_РСС_ЯНВ26_2.JPG.txt",
-    "20_Проекты/Цех_Проектов.md",
-    "00_Система/Инструменты/Python_Excel/РСС_ЯНВ26_1.JPG",
-    "00_Система/Инструменты/Python_Excel/РСС_ЯНВ26_2.JPG",
-    "00_Система/Инструменты/Python_Excel/cach/notes_tesseract_fix.md",
-    "00_Система/Инструменты/Python_Excel/cach/image.png",
-    "00_Система/Инструменты/Сборка_Мусора.md",
-    "00_Система/Инструменты/Python_Excel/test1.png",
-    "30_Библиотека/Книги/Control_Valve_RU/Chunk4_Source/Attachments/asset_p50_81.png",
-    "30_Библиотека/Книги/Control_Valve_RU/Chunk4_Source/Attachments/asset_p30_19.png",
     "Без названия 2.canvas",
     "Без названия 1.canvas",
     "Без названия.canvas",

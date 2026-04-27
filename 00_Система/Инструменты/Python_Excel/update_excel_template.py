@@ -3,6 +3,23 @@ import csv
 import ctypes
 import os
 import re
+import subprocess
+import sys
+
+def ensure_dependencies():
+    """Checks and installs missing python packages automatically."""
+    required = ["openpyxl"]
+    for pkg in required:
+        try:
+            __import__(pkg)
+        except ImportError:
+            print(f"Installing missing dependency: {pkg}...")
+            try:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", pkg])
+            except Exception as e:
+                print(f"Error installing {pkg}: {e}")
+
+ensure_dependencies()
 
 import openpyxl
 
@@ -175,10 +192,13 @@ def update_excel_with_mapping(
         raise FileNotFoundError(f"Excel file not found: {file_path}")
 
     wb = openpyxl.load_workbook(file_path)
-    if sheet_name not in wb.sheetnames:
+    if sheet_name is None:
+        sheet = wb.active
+        print(f"Using active sheet: {sheet.title}")
+    elif sheet_name not in wb.sheetnames:
         raise ValueError(f"Sheet {sheet_name} not found. Available: {wb.sheetnames}")
-
-    sheet = wb[sheet_name]
+    else:
+        sheet = wb[sheet_name]
     updated_count = 0
     missed = []
 
@@ -217,13 +237,13 @@ def build_arg_parser():
     parser = argparse.ArgumentParser(
         description="Update an Excel template using salary values from result.csv/results.csv."
     )
-    parser.add_argument("excel_file", help="Path to .xlsx file or filename substring to update.")
-    parser.add_argument("--sheet", default="Итог", help="Worksheet name. Default: Итог.")
-    parser.add_argument("--name-col", required=True, help="Employee name column, e.g. B or 2.")
-    parser.add_argument("--target-col", required=True, help="Column to write values, e.g. H or 8.")
+    parser.add_argument("excel_file", nargs="?", default=None, help="Path to .xlsx file or filename substring. If missing, searches for .xlsx nearby.")
+    parser.add_argument("--sheet", default=None, help="Worksheet name. Default: active sheet.")
+    parser.add_argument("--name-col", default="B", help="Employee name column, e.g. B or 2. Default: B.")
+    parser.add_argument("--target-col", default="H", help="Column to write values, e.g. H or 8. Default: H.")
     parser.add_argument("--start-row", type=int, default=1, help="First row to scan. Default: 1.")
     parser.add_argument("--csv", default=None, help="CSV from parser. Default: result.csv, then results.csv.")
-    parser.add_argument("--search-dir", default=".", help="Directory for Excel substring search. Default: current dir.")
+    parser.add_argument("--search-dir", default=".", help="Directory for Excel search. Default: current dir.")
     parser.add_argument("--output", default=None, help="Output .xlsx path. Default: *_updated.xlsx.")
     parser.add_argument(
         "--value-divisor",
@@ -243,7 +263,15 @@ def main():
     if not mapping:
         raise ValueError(f"No data loaded from {csv_path}")
 
-    excel_file = resolve_excel_file(args.excel_file, args.search_dir)
+    excel_file = args.excel_file
+    if not excel_file:
+        # Пытаемся найти любой подходящий Excel рядом, если путь не указан
+        try:
+            excel_file = resolve_excel_file(".xlsx", args.search_dir)
+        except Exception:
+            raise ValueError("No Excel file provided and none found in current directory.")
+
+    excel_file = resolve_excel_file(excel_file, args.search_dir)
     print(f"Loaded {len(mapping)} salary values from {csv_path}")
     print(f"Excel file: {excel_file}")
     update_excel_with_mapping(

@@ -2,8 +2,8 @@ import os
 import glob
 import json
 import csv
-import subprocess
 import sys
+import subprocess
 import re
 import urllib.request
 import ctypes
@@ -12,6 +12,30 @@ import logging
 import datetime
 import time
 import difflib
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+def ensure_dependencies():
+    """Checks and installs missing python packages automatically."""
+    required = ["pytesseract", "opencv-python", "pillow", "numpy", "requests"]
+    import_map = {"opencv-python": "cv2", "pillow": "PIL"}
+    
+    for pkg in required:
+        mod = import_map.get(pkg, pkg)
+        try:
+            __import__(mod)
+        except ImportError:
+            print(f"Installing missing dependency: {pkg}...")
+            try:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", pkg])
+            except Exception as e:
+                print(f"Error installing {pkg}: {e}")
+
+# Запускаем проверку до всех остальных импортов
+ensure_dependencies()
+
+import cv2
+import numpy as np
+import pytesseract
 
 # Для работы требуется: py -m pip install pytesseract Pillow opencv-python numpy
 # И установленный Tesseract OCR в системе.
@@ -110,6 +134,18 @@ def ensure_rus_language():
             log(f"Пожалуйста, скачайте его вручную и положите в: {rus_path}", "ERROR")
             return ""
     
+    # Также скачиваем eng.traineddata для лучшего распознавания знаков и букв
+    eng_url = "https://github.com/tesseract-ocr/tessdata/raw/main/eng.traineddata"
+    eng_path = os.path.join(local_tessdata_dir, "eng.traineddata")
+    if not os.path.exists(eng_path):
+        log(f"Скачивание eng.traineddata в {eng_path}...")
+        try:
+            import urllib.request
+            urllib.request.urlretrieve(eng_url, eng_path)
+            log("eng.traineddata скачан.")
+        except Exception as e:
+            log(f"Не удалось скачать eng.traineddata: {e}", "WARNING")
+
     # Возвращаем короткий путь для гарантированной работы Tesseract
     return get_short_path_name(local_tessdata_dir)
 
@@ -289,6 +325,8 @@ def match_employee_name(ocr_name, dictionary):
 
     scores.sort(reverse=True, key=lambda item: item[0])
     best_score, best_employee, _ = scores[0]
+    if best_score < 0.2: # Если совпадение слишком слабое, считаем что не нашли
+        return "", 0.0, scores[:3]
     return best_employee, best_score, scores[:3]
 
 def choose_employee_name(ocr_name, employee_dict, block_num):
@@ -321,12 +359,11 @@ def ocr_cell(img_cv, lang='rus', config='--psm 7'):
     if h > 8 and w > 8:
         pad_y = max(1, min(3, h // 10))
         pad_x = max(1, min(3, w // 20))
-        img_cv = img_cv[pad_y:h-pad_y, pad_x:w-pad_x]
 
     # Масштабируем ячейку для лучшего OCR
     h, w = img_cv.shape[:2]
     if h < 40:
-        scale = 3.0 # Увеличиваем масштаб еще сильнее
+        scale = 6.0 # Возвращаем 6x для очень мелкого текста
         img_cv = cv2.resize(img_cv, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_LANCZOS4)
     
     # Предобработка: ч/б -> повышение контраста -> порог
@@ -359,57 +396,61 @@ def ocr_name_cell(img_cv, config=""):
     import cv2
     from PIL import Image
 
-    h, w = img_cv.shape[:2]
-    if h > 6 and w > 10:
-        pad_y = max(1, min(2, h // 8))
-        pad_x = max(1, min(2, w // 30))
-        img_cv = img_cv[pad_y:h - pad_y, pad_x:w - pad_x]
-
     if len(img_cv.shape) == 3:
         gray = cv2.cvtColor(img_cv, cv2.COLOR_BGR2GRAY)
     else:
         gray = img_cv
 
-    # Заголовок очень низкий: приводим высоту строки к устойчивому для Tesseract размеру.
+    # Для имен на сером фоне адаптивный порог и Оцу
     h, w = gray.shape[:2]
-    scale = max(6, min(10, int(round(90 / max(h, 1)))))
-    gray = cv2.resize(gray, (w * scale, h * scale), interpolation=cv2.INTER_CUBIC)
-    gray = cv2.copyMakeBorder(gray, 18, 18, 24, 24, cv2.BORDER_CONSTANT, value=255)
-
+    scale = 8
+    gray = cv2.resize(gray, (w * scale, h * scale), interpolation=cv2.INTER_LANCZOS4)
+    
     variants = []
+    # 1. Адаптивный порог с большим окном
+    variants.append(("adaptive", cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 51, 15)))
+    # 2. Оцу
     _, otsu = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
     variants.append(("otsu", otsu))
-    adaptive = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 31, 9)
-    variants.append(("adaptive", adaptive))
-    sharp = cv2.GaussianBlur(gray, (0, 0), 1.0)
-    sharp = cv2.addWeighted(gray, 1.7, sharp, -0.7, 0)
-    _, sharp_otsu = cv2.threshold(sharp, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-    variants.append(("sharp", sharp_otsu))
+    # 3. Оригинальный серый
     variants.append(("gray", gray))
 
-    whitelist = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяЁё.- "
-    base_config = f"-c tessedit_char_whitelist={whitelist} {config}".strip()
-    psm_configs = [
-        f"--psm 7 {base_config}".strip(),
-        f"--psm 8 {base_config}".strip(),
-        f"--psm 13 {base_config}".strip(),
-    ]
+    # Убираем whitelist для теста, если он мешает
+    base_config = f"{config}".strip()
+    psm_configs = [6, 7]
 
     candidates = []
     seen = set()
-    for variant_name, prepared in variants:
-        pil_img = Image.fromarray(prepared)
-        for ocr_config in psm_configs:
-            try:
-                text = pytesseract.image_to_string(pil_img, lang='rus', config=ocr_config).strip()
-            except Exception as e:
-                log(f"Ошибка OCR имени ({variant_name}, {ocr_config}): {e}", "DEBUG")
-                continue
+
+    def run_ocr(variant_info):
+        v_name, prep, psm = variant_info
+        try:
+            ocr_config = f"--psm {psm} {base_config}".strip()
+            text = pytesseract.image_to_string(Image.fromarray(prep).convert('L'), lang='rus+eng', config=ocr_config).strip()
             cleaned = clean_ocr_name(text)
-            key = cleaned.upper()
-            if cleaned and key not in seen:
-                seen.add(key)
-                candidates.append((cleaned, text, variant_name, ocr_config))
+            if cleaned:
+                return (cleaned, text, v_name, ocr_config)
+        except Exception:
+            pass
+        return None
+
+    tasks = []
+    for variant_name, prepared in variants:
+        padded = cv2.copyMakeBorder(prepared, 20, 20, 20, 20, cv2.BORDER_CONSTANT, value=255)
+        for psm in psm_configs:
+            tasks.append((variant_name, padded, psm))
+
+    # Используем ThreadPoolExecutor для параллельного запуска Tesseract
+    with ThreadPoolExecutor(max_workers=min(len(tasks), 10)) as executor:
+        future_to_task = {executor.submit(run_ocr, task): task for task in tasks}
+        for future in as_completed(future_to_task):
+            res = future.result()
+            if res:
+                cleaned, text, variant_name, ocr_config = res
+                key = cleaned.upper()
+                if key not in seen:
+                    seen.add(key)
+                    candidates.append(res)
 
     return candidates
 
@@ -422,7 +463,14 @@ def parse_amount(value_str):
     if not match:
         return 0
     try:
-        return float(match.group(1).replace(',', '.'))
+        val_str = match.group(1).replace(',', '.')
+        val = float(val_str)
+        # Специфический фикс для этих таблиц: если в конце "1", и число вылетает за 500к,
+        # это почти наверняка полоса сетки, которую Tesseract принял за единицу.
+        # Также проверяем на аномально длинные числа.
+        if val > 550000 and val_str.endswith('1'):
+            return val // 10
+        return val
     except ValueError:
         return 0
 
@@ -437,44 +485,90 @@ def ocr_amount_cell(img_cv, config=""):
     from PIL import Image
 
     h, w = img_cv.shape[:2]
-    if h > 6 and w > 8:
-        img_cv = img_cv[1:h-1, 2:w-2]
+    # Обрезаем только 1 пиксель, чтобы убрать сетку, не повредив цифры
+    if h > 10 and w > 10:
+        img_cv = img_cv[1:h-1, 1:w-1]
 
     if len(img_cv.shape) == 3:
-        gray = cv2.cvtColor(img_cv, cv2.COLOR_BGR2GRAY)
+        gray_orig = cv2.cvtColor(img_cv, cv2.COLOR_BGR2GRAY)
     else:
-        gray = img_cv
-
-    scale = 6
-    gray = cv2.resize(gray, (gray.shape[1] * scale, gray.shape[0] * scale), interpolation=cv2.INTER_CUBIC)
-    gray = cv2.copyMakeBorder(gray, 18, 18, 18, 18, cv2.BORDER_CONSTANT, value=255)
+        gray_orig = img_cv
 
     variants = []
-    _, otsu = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-    variants.append(("otsu", otsu))
-    adaptive = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 31, 7)
-    variants.append(("adaptive", adaptive))
-    variants.append(("gray", gray))
+    # Вариант 1: 5x + Adaptive (Вес 1.0)
+    scale5 = 5
+    gray5 = cv2.resize(gray_orig, (gray_orig.shape[1] * scale5, gray_orig.shape[0] * scale5), interpolation=cv2.INTER_LANCZOS4)
+    gray5 = cv2.copyMakeBorder(gray5, 30, 30, 30, 30, cv2.BORDER_CONSTANT, value=255)
+    variants.append(("scale5_adapt", cv2.adaptiveThreshold(gray5, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 31, 11), 1.0, 1))
 
-    base_config = f"-c tessedit_char_whitelist=0123456789,. {config}".strip()
-    psm_configs = [
-        f"--psm 7 {base_config}".strip(),
-        f"--psm 8 {base_config}".strip(),
-        f"--psm 13 {base_config}".strip(),
-    ]
+    # Вариант 2: 8x + Оцу (Вес 1.0)
+    scale8 = 8
+    gray8 = cv2.resize(gray_orig, (gray_orig.shape[1] * scale8, gray_orig.shape[0] * scale8), interpolation=cv2.INTER_LANCZOS4)
+    gray8 = cv2.copyMakeBorder(gray8, 30, 30, 30, 30, cv2.BORDER_CONSTANT, value=255)
+    _, otsu8 = cv2.threshold(gray8, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    variants.append(("scale8_otsu", otsu8, 1.0, 1))
+    
+    # Вариант 3: Legacy движок (OEM 0) - часто лучше на цифрах (Вес 0.8)
+    variants.append(("legacy", otsu8, 0.8, 0))
+    
+    # Вариант 4: Утончение (Erosion) - (Вес 0.5)
+    kernel = np.ones((2, 2), np.uint8)
+    eroded = cv2.erode(otsu8, kernel, iterations=1)
+    variants.append(("eroded", eroded, 0.5, 1))
+
+    # Вариант 5: Повышенный контраст (Вес 0.7)
+    contrast = cv2.convertScaleAbs(gray8, alpha=1.5, beta=-30)
+    _, otsu_c = cv2.threshold(contrast, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    variants.append(("contrast", otsu_c, 0.7, 1))
+
+    # Вариант 6: CLAHE (Локальный контраст) (Вес 0.6)
+    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8,8))
+    cl1 = clahe.apply(gray8)
+    variants.append(("clahe", cv2.adaptiveThreshold(cl1, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 51, 15), 0.6, 1))
+
+    # Вариант 7: Гамма-коррекция (затягивание серого в черный) (Вес 0.8)
+    gamma = 0.5
+    invGamma = 1.0 / gamma
+    table = np.array([((i / 255.0) ** invGamma) * 255 for i in np.arange(0, 256)]).astype("uint8")
+    gamma_img = cv2.LUT(gray8, table)
+    _, otsu_g = cv2.threshold(gamma_img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    variants.append(("gamma", otsu_g, 0.8, 1))
+
+    # Вариант 8: Утолщение черного (захват серых пикселей) (Вес 0.7)
+    _, hard_thresh = cv2.threshold(gray8, 190, 255, cv2.THRESH_BINARY)
+    kernel_thick = np.ones((2, 2), np.uint8)
+    thick = cv2.erode(hard_thresh, kernel_thick, iterations=1) 
+    variants.append(("thick", thick, 0.7, 1))
+
+    # Используем встроенный конфиг 'digits'
+    base_config = f"digits -c tessedit_char_whitelist=0123456789,. {config}".strip()
+    psm_configs = [6, 7] # Оставляем самые надежные
 
     candidates = []
-    for variant_name, prepared in variants:
-        pil_img = Image.fromarray(prepared)
-        for ocr_config in psm_configs:
-            try:
-                text = pytesseract.image_to_string(pil_img, lang='rus', config=ocr_config).strip()
-            except Exception as e:
-                log(f"Ошибка OCR суммы ({variant_name}, {ocr_config}): {e}", "DEBUG")
-                continue
+    
+    def run_ocr(variant_info):
+        v_name, prep, psm, weight, oem = variant_info
+        try:
+            ocr_config = f"--oem {oem} --psm {psm} {base_config}".strip()
+            text = pytesseract.image_to_string(Image.fromarray(prep).convert('L'), lang='rus+eng', config=ocr_config).strip()
             value = parse_amount(text)
             if value:
-                candidates.append((value, text, variant_name, ocr_config))
+                return (value, text, v_name, ocr_config, weight)
+        except Exception:
+            pass
+        return None
+
+    tasks = []
+    for variant_name, prepared, weight, oem in variants:
+        for psm in psm_configs:
+            tasks.append((variant_name, prepared, psm, weight, oem))
+
+    with ThreadPoolExecutor(max_workers=min(len(tasks), 10)) as executor:
+        future_to_task = {executor.submit(run_ocr, task): task for task in tasks}
+        for future in as_completed(future_to_task):
+            res = future.result()
+            if res:
+                candidates.append(res)
 
     if not candidates:
         return "", 0, []
@@ -482,14 +576,21 @@ def ocr_amount_cell(img_cv, config=""):
     plausible = [item for item in candidates if amount_is_plausible(item[0])]
     pool = plausible if plausible else candidates
 
-    # Если несколько режимов дали близкие значения, берем самое повторяемое.
+    # Взвешенное голосование
     buckets = {}
-    for value, text, variant_name, ocr_config in pool:
+    for value, text, variant_name, ocr_config, weight in pool:
         key = round(value)
-        buckets.setdefault(key, []).append((value, text, variant_name, ocr_config))
-    best_key = max(buckets, key=lambda key: len(buckets[key]))
-    best = buckets[best_key][0]
-    return best[1], best[0], candidates
+        buckets.setdefault(key, 0)
+        buckets[key] += weight
+    
+    best_key = max(buckets, key=lambda key: buckets[key])
+    
+    # Находим любой из результатов, давших этот ключ
+    for value, text, variant_name, ocr_config, weight in pool:
+        if round(value) == best_key:
+            return text, value, candidates
+    
+    return "", 0, candidates
 
 def compact_text(text, limit=80):
     """Готовит OCR-текст для однострочного диагностического лога."""
@@ -540,7 +641,6 @@ def parse_image(image_path, tessdata_dir="", employee_dict=None):
         import pytesseract
         from PIL import Image
         import cv2
-        import numpy as np
         
         image_name = os.path.basename(image_path)
 
@@ -564,8 +664,10 @@ def parse_image(image_path, tessdata_dir="", employee_dict=None):
                 config = f'--tessdata-dir "{tessdata_dir}"'
 
         # Линии
-        h_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (img.shape[1] // 30, 1))
-        v_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, img.shape[0] // 30))
+        h_size = max(1, img.shape[1] // 30)
+        v_size = max(1, img.shape[0] // 30)
+        h_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (h_size, 1))
+        v_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, v_size))
         
         h_lines = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, h_kernel, iterations=2)
         v_lines = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, v_kernel, iterations=2)
@@ -626,29 +728,31 @@ def parse_image(image_path, tessdata_dir="", employee_dict=None):
 
         if visual_expected_row != -1:
             common_total_row = visual_expected_row
-
-        if common_total_row != -1:
-            log(f"Определена общая строка ИТОГО К ВЫПЛАТЕ: индекс {common_total_row}")
-        else:
-            log("Общая строка ИТОГО К ВЫПЛАТЕ не найдена, будем искать индивидуально", "DEBUG")
+            log(f"Определена ожидаемая строка ИТОГО К ВЫПЛАТЕ по умолчанию: индекс {common_total_row}")
+        
+        # Кэш индекса строки, если она будет найдена динамически в первом блоке
+        cached_total_row = -1
 
         results = []
-        # Колонки обычно идут парами: (Имя/Категория, Месяц/Значение)
-        # В этой таблице 7 человек по 2 колонки = 14 колонок.
+
         # Формируем общий конфиг для ячеек
-        cell_config = f"--psm 7 {config}".strip()
+        config_with_tessdata = f'--tessdata-dir "{tessdata_dir}"' if " " in tessdata_dir else f'--tessdata-dir {tessdata_dir}'
+        cell_config = f"--psm 7 {config_with_tessdata}".strip()
+        
+        # Сначала обрабатываем первый блок, чтобы найти строку ИТОГО, если она не совпадает с дефолтом
+        # Для простоты объединим в один цикл, но будем обновлять cached_total_row.
         
         for block_num, (col_idx, x1, x2, x3) in enumerate(salary_blocks, start=1):
             # 1. Извлекаем ФИО из левой ячейки заголовка. Правая ячейка содержит месяц,
             # поэтому распознавание x1:x3 часто портит ФИО.
             name_candidates = []
             name_left_img = gray[y_coords[0]:y_coords[1], x1:x2]
-            name_candidates.extend(ocr_name_cell(name_left_img, config=config))
+            name_candidates.extend(ocr_name_cell(name_left_img, config=config_with_tessdata))
 
             # Если левая ячейка не дала кандидатов, пробуем заголовок целиком.
             if not name_candidates:
                 name_full_img = gray[y_coords[0]:y_coords[1], x1:x3]
-                name_candidates.extend(ocr_name_cell(name_full_img, config=config))
+                name_candidates.extend(ocr_name_cell(name_full_img, config=config_with_tessdata))
 
             if name_candidates and employee_dict:
                 scored_candidates = []
@@ -675,17 +779,19 @@ def parse_image(image_path, tessdata_dir="", employee_dict=None):
             log(f"Имя после очистки и коррекции: {name}")
             person_sum = 0
             
-            # Сначала проверяем общую строку ИТОГО, если она найдена
+            # Формируем список строк для проверки
             check_rows = []
-            if common_total_row != -1:
+            
+            # 1. Приоритет: кэшированная строка или дефолтная
+            if cached_total_row != -1:
+                check_rows.append(cached_total_row)
+            elif common_total_row != -1:
                 check_rows.append(common_total_row)
             
-            # Если геометрия не дала строку, ищем только в нижней части блока.
-            # При найденной общей строке не сканируем весь блок: это и быстрее,
-            # и не дает случайно схватить "СУММА" или другую похожую строку.
-            if common_total_row == -1:
-                candidate_rows = list(range(max(1, len(y_coords) - 9), len(y_coords) - 1))
-                for r in candidate_rows:
+            # 2. Если ничего не подошло, сканируем диапазон
+            candidate_rows = list(range(max(1, len(y_coords) - 9), len(y_coords) - 1))
+            for r in candidate_rows:
+                if r not in check_rows:
                     check_rows.append(r)
             
             for row_idx in check_rows:
@@ -710,7 +816,7 @@ def parse_image(image_path, tessdata_dir="", employee_dict=None):
                     category = "ИТОГО К ВЫПЛАТЕ (геометрия)"
 
                 # Если дошли сюда, значит это либо общая строка ИТОГО, либо найден ключ в текущей
-                value_str, val, _ = ocr_amount_cell(val_img, config=config)
+                value_str, val, _ = ocr_amount_cell(val_img, config=config_with_tessdata)
                 
                 # Попытка вытащить число из категории, если в значении пусто
                 if not val and not any(c.isdigit() for c in value_str):
@@ -723,17 +829,22 @@ def parse_image(image_path, tessdata_dir="", employee_dict=None):
                 if amount_is_plausible(val):
                     person_sum = val
                     log(f"Блок {block_num}: {name} -> {val} (OCR='{compact_text(value_str)}')")
+                    # Обновляем кэш строки для следующих блоков
+                    if cached_total_row == -1:
+                        cached_total_row = row_idx
+                        log(f"Строка ИТОГО К ВЫПЛАТЕ зафиксирована на индексе {cached_total_row}")
                     break # Нашли итоговую сумму, дальше по этой колонке не идем
                 elif val:
                     log(f"Блок {block_num}: сумма отклонена как неправдоподобная: {val} (OCR='{compact_text(value_str)}')", "WARNING")
             
             if person_sum > 0:
-                results.append((name, person_sum))
+                results.append((name, person_sum, block_num))
                 log(f"Итого: {name} -> {person_sum}")
             else:
                 log(f"ПРЕДУПРЕЖДЕНИЕ: Для {name} не найдена сумма в основной ячейке ИТОГО К ВЫПЛАТЕ.", "WARNING")
         
-        return results
+        results.sort(key=lambda x: x[2]) # Сортировка по block_num
+        return [(r[0], r[1]) for r in results]
     except Exception as e:
         log(f"Ошибка при сеточном парсинге {image_path}: {e}", "ERROR")
         log(traceback.format_exc(), "DEBUG")
