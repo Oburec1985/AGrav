@@ -30,6 +30,9 @@ graph TD
     subgraph "20_Проекты"
         SQLSensors["SQLSensorsDB"]
         Bridge["Future API Bridge"]
+        OglChart["OpenGLChartLazarus"]
+        LegacyCChart["Delphi cChart"]
+        LazarusFPC["Lazarus/FPC"]
     end
 
     %% Связи
@@ -42,6 +45,9 @@ graph TD
     
     SQLSensors -.-> Bridge
     Bridge -.-> Infrastructure
+    OglChart -.-> LegacyCChart
+    OglChart --> LazarusFPC
+    OglChart --> CodeStd
     
     BypassWiki -.-> Devices
     BypassWiki -.-> Infrastructure
@@ -54,6 +60,8 @@ graph TD
 | `Скиллы_ИИ.md` | `Код_Стандарты.md` | Depends On | Основные технические правила вынесены в стандарт. |
 | `20_Инфраструктура_и_Серверы` | `Шаблон_Настройки_Узла.md` | Implements | Вся инфраструктура теперь строится по единому шаблону. |
 | `SQLSensorsDB` | `15_Дом/Инфраструктура` | Potential Bridge | Планируемая связь для передачи данных с домашних датчиков в БД. |
+| `OpenGLChartLazarus` | `Delphi cChart` | References | Новый Lazarus/FPC-компонент проектируется по мотивам существующего Delphi-компонента из `sharedUtils/компоненты/chart_dpk/chart`. |
+| `OpenGLChartLazarus` | `Lazarus/FPC` | Depends On | Целевая среда разработки и компиляции кроссплатформенного компонента. |
 | `40_Энциклопедия_Обхода` | `15_Дом/Сети` | Knowledge Source | Синтезированный справочник по методам обхода DPI. |
 | `Локализация_dxgettext.md` | `Разработка_Delphi` | References | Инструмент для локализации проектов на Delphi. |
 

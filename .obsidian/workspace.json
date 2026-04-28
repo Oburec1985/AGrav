@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp/Декларации/ИНСТРУКЦИЯ.md",
+                "file": "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes/01_Иерархия_классов_cChart.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ИНСТРУКЦИЯ"
+              "title": "01_Иерархия_классов_cChart"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "temp/Декларации/ИНСТРУКЦИЯ.md",
+                "file": "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes/01_Иерархия_классов_cChart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для ИНСТРУКЦИЯ"
+              "title": "Обратные ссылки для 01_Иерархия_классов_cChart"
             }
           },
           {
@@ -142,20 +142,35 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "temp/Декларации/ИНСТРУКЦИЯ.md",
+                "file": "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes/01_Иерархия_классов_cChart.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура ИНСТРУКЦИЯ"
+              "title": "Структура 01_Иерархия_классов_cChart"
+            }
+          },
+          {
+            "id": "77d286f355e5765c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 289.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,60 +180,61 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "diagram-zoom-drag:Picker mode": false
     }
   },
   "active": "22d070b5b3cd3f00",
   "lastOpenFiles": [
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TChartFrameListenerList.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/IChartFrameListener.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TChartDrawContext.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TChartLayoutRect.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TChartObject.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Архитектурные_размышления.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Классовая_структура.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Структура_компонента.md",
+    "2026-04-29.md",
+    "Без названия.canvas",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes/01_Иерархия_классов_cChart.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Описание.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Оглавление.md",
+    "90_Архив/История_изменений.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Summary.md",
+    "00_Система/01_Персональные_Данные/Аккаунты.md",
+    "00_Система/Оглавление.md",
+    "temp/Amnezia_warp.conf",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TXmlChartSerializer.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TJsonChartSerializer.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/IChartSerializer.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TSelectTool.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TCursorTool.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TZoomTool.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TPanTool.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/IChartTool.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TChartToolController.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/IOpenGLContextHost.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes",
+    "Pasted image 20260428235456.png",
+    "Pasted image 20260428235059.png",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/cach",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus",
+    "Pasted image 20260428214443.png",
+    "Pasted image 20260428214413.png",
+    "Pasted image 20260428214314.png",
+    "Pasted image 20260428214227.png",
+    "Pasted image 20260428214052.png",
     "Pasted image 20260427235932.png",
     "temp/Декларации/~$Табл-1_готово.xlsx",
-    "temp/Декларации/Алгоритм.md",
-    "temp/Декларации/ИНСТРУКЦИЯ.md",
     "temp/Декларации/0BC68000",
     "temp/Декларации/94A38000",
     "temp/Декларации/~$Табл-1.xlsx",
-    "temp/Декларации/Табл-1_готово.xlsx",
-    "temp/Декларации/97FB7000",
-    "temp/Декларации/2/~$Табл-2 _ China _ 07 04 26.xlsx",
-    "temp/Декларации/43F87000",
-    "temp/Декларации/1/~$Табл-1_готово.xlsx",
-    "temp/Декларации/08E37000",
     "Pasted image 20260427231653.png",
     "Pasted image 20260427231418.png",
-    "Pasted image 20260427231011.png",
-    "00_Система/Инструменты/Python_Excel/parse_zp_image_tech.md",
-    "00_Система/Инструменты/Python_Excel_ПарсерЗП.md",
-    "00_Система/Инструменты/Python_Excel/РСС_ФЕВ26_2.JPG",
-    "00_Система/Инструменты/Python_Excel/РСС_ФЕВ26_1.JPG",
-    "00_Система/Инструменты/Python_Excel/debug_name_cell.jpg",
-    "00_Система/Инструменты/Перевод_MD.md",
-    "00_Система/Инструменты/Python_Excel/Без имени.jpg",
-    "00_Система/Инструменты/Python_Excel/Без имени2.jpg",
-    "00_Система/Инструменты/Сборка_Мусора.md",
-    "00_Система/01_Персональные_Данные/Аккаунты.md",
-    "00_Система/Relationships.md",
-    "00_Система/Инструменты.md",
-    "90_Архив/История_изменений.md",
-    "00_Система/Оглавление.md",
-    "90_Архив/РСС_Контекст/РСС_Афоризмы.md",
-    "temp/zp/РСС_МАР26_1.JPG",
-    "temp/zp/РСС_МАР26_2.JPG",
-    "00_Система/Инструменты/Локализация_dxgettext.md",
-    "00_Система/Инструменты/Инструменты_МСР.md",
-    "00_Система/Инструменты/Парсинг_Книг.md",
-    "00_Система/Скиллы_ИИ.md",
-    "00_Система/Obsidian/Вставка ссылок.md",
-    "20_Проекты/Сетевые_Настройки/YouTube_Bypass/Summary.md",
-    "15_Дом/Сети_и_Связь/40_Энциклопедия_Обхода/09_Диагностика.md",
-    "15_Дом/Сети_и_Связь/40_Энциклопедия_Обхода/Энциклопедия_MOC.md",
-    "15_Дом/Сети_и_Связь/🌐_Сети_и_Связь.md",
-    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С выходом по напряжению/Высокочувствительный/Однокомпонентный/Вибропреобразователь AP2006-5000-01.md",
-    "00_Система/Инструменты/Python_Excel/cach/notes_parse_zp_image.md",
-    "00_Система/Код_Стандарты.md",
-    "00_Система/Инструменты/Python_Excel/cach/implementation_plan.md",
     "Без названия 2.canvas",
     "Без названия 1.canvas",
-    "Без названия.canvas",
     "10_Работа/РСС/Рабочие/Шаблон заказа V02.canvas",
     "10_Работа/РСС/Рабочие/Расположение шаблонов (обновить!).canvas",
     "10_Работа/РСС/Рабочие/Запуск заказа.canvas",
