@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "userId": 0,
+  "up": 811614327,
+  "down": 6036382952,
+  "total": 0,
+  "allTime": 6847997279,
+  "remark": "My_Browser_Proxy",
+  "enable": true,
+  "expiryTime": 0,
+  "trafficReset": "never",
+  "lastTrafficResetTime": 0,
+  "listen": "",
+  "port": 42862,
+  "protocol": "http",
+  "settings": "{\n  \"accounts\": [\n    {\n      \"user\": \"user\",\n      \"pass\": \"Samokat2025!\"\n    }\n  ],\n  \"allowTransparent\": false\n}",
+  "streamSettings": "",
+  "tag": "inbound-42862",
+  "sniffing": "{\n  \"enabled\": false,\n  \"destOverride\": [\n    \"http\",\n    \"tls\",\n    \"quic\",\n    \"fakedns\"\n  ],\n  \"metadataOnly\": false,\n  \"routeOnly\": false\n}",
+  "clientStats": []
+}
