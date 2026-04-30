@@ -4,7 +4,7 @@
 
 Код проекта планируется вести в:
 
-`C:\Oburec\Projects\Lazarus`
+`e:\Oburec\delphi\2011\OburecGH\Lazarus\SharedUtils\components\chart_lzr\`
 
 ## Граф классов
 
@@ -220,64 +220,64 @@ classDiagram
     IChartSerializer <|.. TXmlChartSerializer
     IChartSerializer --> TChartModel
 
-    click TOglChartControl href "classes/TOglChartControl.md" "TOglChartControl"
-    click TChartModel href "classes/TChartModel.md" "TChartModel"
-    click TChartObject href "classes/TChartObject.md" "TChartObject"
-    click TChartLayoutRect href "classes/TChartLayoutRect.md" "TChartLayoutRect"
-    click TChartPage href "classes/TChartPage.md" "TChartPage"
-    click TChartViewport href "classes/TChartViewport.md" "TChartViewport"
-    click TChartAxis href "classes/TChartAxis.md" "TChartAxis"
-    click TChartSeries href "classes/TChartSeries.md" "TChartSeries"
-    click TLineSeries href "classes/TLineSeries.md" "TLineSeries"
-    click TChartCursor href "classes/TChartCursor.md" "TChartCursor"
-    click TChartAnnotation href "classes/TChartAnnotation.md" "TChartAnnotation"
-    click TChartStyleSet href "classes/TChartStyleSet.md" "TChartStyleSet"
-    click TChartDrawContext href "classes/TChartDrawContext.md" "TChartDrawContext"
-    click IChartRenderer href "classes/IChartRenderer.md" "IChartRenderer"
-    click TOpenGLChartRenderer href "classes/TOpenGLChartRenderer.md" "TOpenGLChartRenderer"
-    click IOpenGLContextHost href "classes/IOpenGLContextHost.md" "IOpenGLContextHost"
-    click TChartToolController href "classes/TChartToolController.md" "TChartToolController"
-    click IChartTool href "classes/IChartTool.md" "IChartTool"
-    click IChartFrameListener href "classes/IChartFrameListener.md" "IChartFrameListener"
-    click TChartFrameListenerList href "classes/TChartFrameListenerList.md" "TChartFrameListenerList"
-    click TPanTool href "classes/TPanTool.md" "TPanTool"
-    click TZoomTool href "classes/TZoomTool.md" "TZoomTool"
-    click TCursorTool href "classes/TCursorTool.md" "TCursorTool"
-    click TSelectTool href "classes/TSelectTool.md" "TSelectTool"
-    click IChartSerializer href "classes/IChartSerializer.md" "IChartSerializer"
-    click TJsonChartSerializer href "classes/TJsonChartSerializer.md" "TJsonChartSerializer"
-    click TXmlChartSerializer href "classes/TXmlChartSerializer.md" "TXmlChartSerializer"
+    click TOglChartControl href "../classes/TOglChartControl.md" "TOglChartControl"
+    click TChartModel href "../classes/TChartModel.md" "TChartModel"
+    click TChartObject href "../classes/TChartObject.md" "TChartObject"
+    click TChartLayoutRect href "../classes/TChartLayoutRect.md" "TChartLayoutRect"
+    click TChartPage href "../classes/TChartPage.md" "TChartPage"
+    click TChartViewport href "../classes/TChartViewport.md" "TChartViewport"
+    click TChartAxis href "../classes/TChartAxis.md" "TChartAxis"
+    click TChartSeries href "../classes/TChartSeries.md" "TChartSeries"
+    click TLineSeries href "../classes/TLineSeries.md" "TLineSeries"
+    click TChartCursor href "../classes/TChartCursor.md" "TChartCursor"
+    click TChartAnnotation href "../classes/TChartAnnotation.md" "TChartAnnotation"
+    click TChartStyleSet href "../classes/TChartStyleSet.md" "TChartStyleSet"
+    click TChartDrawContext href "../classes/TChartDrawContext.md" "TChartDrawContext"
+    click IChartRenderer href "../classes/IChartRenderer.md" "IChartRenderer"
+    click TOpenGLChartRenderer href "../classes/TOpenGLChartRenderer.md" "TOpenGLChartRenderer"
+    click IOpenGLContextHost href "../classes/IOpenGLContextHost.md" "IOpenGLContextHost"
+    click TChartToolController href "../classes/TChartToolController.md" "TChartToolController"
+    click IChartTool href "../classes/IChartTool.md" "IChartTool"
+    click IChartFrameListener href "../classes/IChartFrameListener.md" "IChartFrameListener"
+    click TChartFrameListenerList href "../classes/TChartFrameListenerList.md" "TChartFrameListenerList"
+    click TPanTool href "../classes/TPanTool.md" "TPanTool"
+    click TZoomTool href "../classes/TZoomTool.md" "TZoomTool"
+    click TCursorTool href "../classes/TCursorTool.md" "TCursorTool"
+    click TSelectTool href "../classes/TSelectTool.md" "TSelectTool"
+    click IChartSerializer href "../classes/IChartSerializer.md" "IChartSerializer"
+    click TJsonChartSerializer href "../classes/TJsonChartSerializer.md" "TJsonChartSerializer"
+    click TXmlChartSerializer href "../classes/TXmlChartSerializer.md" "TXmlChartSerializer"
 ```
 
 ## Индекс классов
 
-- [TOglChartControl](classes/TOglChartControl.md) - LCL-компонент и публичная точка входа.
-- [TChartModel](classes/TChartModel.md) - корень модели графика.
-- [TChartObject](classes/TChartObject.md) - базовый интерфейс объектов графика.
-- [TChartLayoutRect](classes/TChartLayoutRect.md) - относительные и пиксельные bounds объекта.
-- [TChartPage](classes/TChartPage.md) - логическая область графика.
-- [TChartViewport](classes/TChartViewport.md) - преобразование координат.
-- [TChartAxis](classes/TChartAxis.md) - ось и шкала.
-- [TChartSeries](classes/TChartSeries.md) - базовый класс серии данных.
-- [TLineSeries](classes/TLineSeries.md) - первая реализация серии.
-- [TChartCursor](classes/TChartCursor.md) - интерактивный курсор.
-- [TChartAnnotation](classes/TChartAnnotation.md) - подписи и графические пометки.
-- [TChartStyleSet](classes/TChartStyleSet.md) - стили и палитры.
-- [TChartDrawContext](classes/TChartDrawContext.md) - контекст отрисовки кадра.
-- [IChartRenderer](classes/IChartRenderer.md) - интерфейс рендера.
-- [TOpenGLChartRenderer](classes/TOpenGLChartRenderer.md) - OpenGL-рендер.
-- [IOpenGLContextHost](classes/IOpenGLContextHost.md) - владелец OpenGL-контекста.
-- [TChartToolController](classes/TChartToolController.md) - диспетчер интерактивных инструментов.
-- [IChartTool](classes/IChartTool.md) - интерфейс инструмента.
-- [IChartFrameListener](classes/IChartFrameListener.md) - интерфейс контекстной реакции на события.
-- [TChartFrameListenerList](classes/TChartFrameListenerList.md) - список listeners и диспетчер приоритетов.
-- [TPanTool](classes/TPanTool.md) - перемещение viewport.
-- [TZoomTool](classes/TZoomTool.md) - масштабирование.
-- [TCursorTool](classes/TCursorTool.md) - управление курсорами.
-- [TSelectTool](classes/TSelectTool.md) - выбор объектов.
-- [IChartSerializer](classes/IChartSerializer.md) - интерфейс сохранения и загрузки.
-- [TJsonChartSerializer](classes/TJsonChartSerializer.md) - JSON-сериализация.
-- [TXmlChartSerializer](classes/TXmlChartSerializer.md) - XML-сериализация.
+- [TOglChartControl](../classes/TOglChartControl.md) - LCL-компонент и публичная точка входа.
+- [TChartModel](../classes/TChartModel.md) - корень модели графика.
+- [TChartObject](../classes/TChartObject.md) - базовый интерфейс объектов графика.
+- [TChartLayoutRect](../classes/TChartLayoutRect.md) - относительные и пиксельные bounds объекта.
+- [TChartPage](../classes/TChartPage.md) - логическая область графика.
+- [TChartViewport](../classes/TChartViewport.md) - преобразование координат.
+- [TChartAxis](../classes/TChartAxis.md) - ось и шкала.
+- [TChartSeries](../classes/TChartSeries.md) - базовый класс серии данных.
+- [TLineSeries](../classes/TLineSeries.md) - первая реализация серии.
+- [TChartCursor](../classes/TChartCursor.md) - интерактивный курсор.
+- [TChartAnnotation](../classes/TChartAnnotation.md) - подписи и графические пометки.
+- [TChartStyleSet](../classes/TChartStyleSet.md) - стили и палитры.
+- [TChartDrawContext](../classes/TChartDrawContext.md) - контекст отрисовки кадра.
+- [IChartRenderer](../classes/IChartRenderer.md) - интерфейс рендера.
+- [TOpenGLChartRenderer](../classes/TOpenGLChartRenderer.md) - OpenGL-рендер.
+- [IOpenGLContextHost](../classes/IOpenGLContextHost.md) - владелец OpenGL-контекста.
+- [TChartToolController](../classes/TChartToolController.md) - диспетчер интерактивных инструментов.
+- [IChartTool](../classes/IChartTool.md) - интерфейс инструмента.
+- [IChartFrameListener](../classes/IChartFrameListener.md) - интерфейс контекстной реакции на события.
+- [TChartFrameListenerList](../classes/TChartFrameListenerList.md) - список listeners и диспетчер приоритетов.
+- [TPanTool](../classes/TPanTool.md) - перемещение viewport.
+- [TZoomTool](../classes/TZoomTool.md) - масштабирование.
+- [TCursorTool](../classes/TCursorTool.md) - управление курсорами.
+- [TSelectTool](../classes/TSelectTool.md) - выбор объектов.
+- [IChartSerializer](../classes/IChartSerializer.md) - интерфейс сохранения и загрузки.
+- [TJsonChartSerializer](../classes/TJsonChartSerializer.md) - JSON-сериализация.
+- [TXmlChartSerializer](../classes/TXmlChartSerializer.md) - XML-сериализация.
 
 ## Правило развития
 
@@ -289,6 +289,6 @@ classDiagram
 
 ## Relationships
 
-- [Оглавление](Оглавление.md)
-- [Описание](Описание.md)
-- [Структура компонента](Структура_компонента.md)
+- [Оглавление](../Оглавление.md)
+- [Описание](../Описание.md)
+- [Структура компонента](../Глава_01_Костяк_компонента/02_Structure.md)
