@@ -1,0 +1,21 @@
+{
+  "id": 4,
+  "userId": 0,
+  "up": 981132036,
+  "down": 214557192,
+  "total": 0,
+  "allTime": 1195689228,
+  "remark": "Transit-DE1",
+  "enable": true,
+  "expiryTime": 0,
+  "trafficReset": "never",
+  "lastTrafficResetTime": 0,
+  "listen": "",
+  "port": 8444,
+  "protocol": "vless",
+  "settings": "{\"clients\":[{\"id\":\"8b005fe1-c27a-40a2-aa5d-8b43bd07340d\",\"email\":\"transit\",\"limitIp\":0,\"totalGB\":0,\"expiryTime\":0,\"enable\":true}],\"decryption\":\"none\",\"fallbacks\":[]}",
+  "streamSettings": "{\"network\":\"tcp\",\"security\":\"none\",\"tcpSettings\":{\"acceptProxyProtocol\":false,\"header\":{\"type\":\"none\"}}}",
+  "tag": "inbound-8444",
+  "sniffing": "{\"enabled\":true,\"destOverride\":[\"http\",\"tls\",\"quic\"],\"metadataOnly\":false,\"routeOnly\":false}",
+  "clientStats": []
+}
