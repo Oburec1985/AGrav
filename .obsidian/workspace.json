@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Описание.md",
+                "file": "20_Проекты/ALF/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Описание"
+              "title": "README"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Wifi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 321.5
   },
   "right": {
     "id": "dac50af29a94a937",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes/01_Иерархия_классов_cChart.md",
+                "file": "90_Архив/История_изменений.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 01_Иерархия_классов_cChart"
+              "title": "Структура История_изменений"
             }
           },
           {
@@ -185,44 +185,47 @@
   },
   "active": "b4bf380014a8d5a2",
   "lastOpenFiles": [
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/cach/plan.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Оглавление.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes/01_Иерархия_классов_cChart.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Summary.md",
-    "Docs/Классовая_структура.md",
-    "README_AI.md",
-    "00_Система/Код_Стандарты.md",
-    "00_Система/Скиллы_ИИ.md",
-    "00_Система/Relationships.md",
-    "00_Система/Оглавление.md",
+    "00_Система/01_Персональные_Данные/Аккаунты.md",
+    "15_Дом/Личные_Системы.md",
+    "20_Проекты/ALF/README.md",
+    "20_Проекты/ALF/README.md.bak",
+    "20_Проекты/ALF/docs/Analogs.md",
+    "20_Проекты/ALF/docs/API_Endpoints.md",
+    "20_Проекты/ALF/docs/DB_Schema.md",
+    "20_Проекты/ALF/docs/Interfaces.md",
+    "20_Проекты/ALF/docs/Status_Report.md",
+    "20_Проекты/ALF/docs/TZ.md",
+    "20_Проекты/ALF/docs/SrcDocs/docs/API_Endpoints.md",
+    "20_Проекты/ALF/docs/SrcDocs/docs/DB_Schema.md",
+    "20_Проекты/ALF/docs/SrcDocs/docs/Interfaces.md",
+    "20_Проекты/ALF/docs/SrcDocs/docs/Status_Report.md",
+    "20_Проекты/ALF/docs/SrcDocs/docs/TZ.md",
+    "20_Проекты/ALF/docs/SrcDocs/docs/Analogs.md",
+    "20_Проекты/ALF/docs/SrcDocs/docs — ярлык.lnk",
+    "20_Проекты/ALF/docs/SrcDocs/docs",
+    "20_Проекты/ALF/docs/SrcDocs",
+    "Без названия",
     "90_Архив/История_изменений.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_01_Костяк_компонента/01_Skeleton.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_01_Костяк_компонента/02_Structure.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/01_Class_Diagram.md",
+    "00_Система/Оглавление.md",
+    "20_Проекты/ALF/docker-compose.yml",
+    "20_Проекты/Цех_Проектов.md",
+    "10_Работа/РСС/Рабочие/Запуск заказа.canvas",
+    "10_Работа/РСС/Рабочие/Идеи для автоматизации.md",
+    "10_Работа/РСС/Рабочие/Локальный ИИ-сервер за 500к.md",
+    "10_Работа/РСС/Рабочие/Орг. доработки в отделе.md",
+    "10_Работа/РСС/Рабочие/Примеры не системной работы.md",
+    "10_Работа/РСС/Рабочие/Расположение шаблонов (обновить!).canvas",
+    "10_Работа/РСС/Рабочие/Сложность проекта.md",
+    "10_Работа/РСС/Рабочие/Ссылки_по_работе.md",
+    "10_Работа/РСС/Рабочие/Шаблон заказа V02.canvas",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Описание.md",
-    "Docs/Структура_компонента.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/cach/plan.md",
     "Docs",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/IOpenGLContextHost.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TOpenGLChartRenderer.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TXmlChartSerializer.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TZoomTool.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Приложения/Pasted image 20260428235059.png",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Приложения/Pasted image 20260428235456.png",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/04_User_Events.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/03_Render_Tree.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/02_Design_Notes.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_03_Графические_объекты",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_01_Костяк_компонента",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Классовая_структура.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/cach/notes_skeleton.md",
-    "00_Система/Инструменты.md",
-    "15_Дом/Сети_и_Связь/Хостинги/de-1/BrowserPro.txt",
-    "15_Дом/Сети_и_Связь/Хостинги/vm959/VMess.txt",
-    "15_Дом/Сети_и_Связь/Хостинги/vm959/VLessReality.txt",
-    "15_Дом/Сети_и_Связь/Хостинги/vm959/VLess.txt",
-    "15_Дом/Сети_и_Связь/Хостинги/vm959/Trojan.txt",
-    "15_Дом/Сети_и_Связь/Хостинги/de-1/Vip_stelth.txt",
     "15_Дом/Сети_и_Связь/приложения/Pasted image 20260428214443.png",
     "15_Дом/Сети_и_Связь/приложения/Pasted image 20260428214314.png",
     "15_Дом/Сети_и_Связь/приложения/Pasted image 20260428214052.png",
@@ -234,9 +237,6 @@
     "00_Система/Инструменты/Python_Excel/РСС_МАР26_2.JPG",
     "Без названия 2.canvas",
     "Без названия 1.canvas",
-    "10_Работа/РСС/Рабочие/Шаблон заказа V02.canvas",
-    "10_Работа/РСС/Рабочие/Расположение шаблонов (обновить!).canvas",
-    "10_Работа/РСС/Рабочие/Запуск заказа.canvas",
     "30_Библиотека/Книги/РСС_Книга/Рабочие/Шаблон заказа V02.canvas",
     "30_Библиотека/Книги/РСС_Книга/Рабочие/Расположение шаблонов (обновить!).canvas",
     "30_Библиотека/Книги/РСС_Книга/Рабочие/Запуск заказа.canvas"

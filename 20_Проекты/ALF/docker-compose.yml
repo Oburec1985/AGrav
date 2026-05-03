@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgis/postgis:15-3.3
+    container_name: alf_db
+    environment:
+      POSTGRES_USER: alf_user
+      POSTGRES_PASSWORD: alf_password
+      POSTGRES_DB: alf_database
+    ports:
+      - "5432:5432"
+    volumes:
+      - alf_db_data:/var/lib/postgresql/data
+    restart: always
+
+  backend:
+    build: .
+    container_name: alf_backend
+    environment:
+      DATABASE_URL: postgresql://alf_user:alf_password@db:5432/alf_database
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    restart: always
+
+volumes:
+  alf_db_data:
