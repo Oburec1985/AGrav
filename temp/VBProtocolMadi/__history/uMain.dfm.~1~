@@ -17,16 +17,16 @@ object MainForm: TMainForm
   object LabelIn: TLabel
     Left = 8
     Top = 8
-    Width = 32
+    Width = 84
     Height = 13
-    Caption = 'InEdit:'
+    Caption = 'InEdit (Принято):'
   end
   object LabelOut: TLabel
     Left = 8
     Top = 200
-    Width = 36
+    Width = 100
     Height = 13
-    Caption = 'OutEdit'
+    Caption = 'OutEdit (Отправка):'
   end
   object InEdit: TMemo
     Left = 8

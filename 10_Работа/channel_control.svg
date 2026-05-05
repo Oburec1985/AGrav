@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Датчик давления -->
+  <rect x="50" y="150" width="80" height="80" fill="#f0f0f0" stroke="#000"/>
+  <text x="90" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Датчик
+    давления</text>
+  <!-- Контроллер -->
+  <rect x="220" y="140" width="120" height="100" fill="#e0e0ff" stroke="#000"/>
+  <text x="280" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Контроллер</text>
+  <!-- Клапан -->
+  <rect x="420" y="150" width="80" height="80" fill="#ffe0e0" stroke="#000"/>
+  <text x="460" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Электромагнитный
+    клапан</text>
+  <!-- Стрелки -->
+  <line x1="130" y1="190" x2="220" y2="190" stroke="#000" marker-end="url(#arrow)"/>
+  <line x1="340" y1="190" x2="420" y2="190" stroke="#000" marker-end="url(#arrow)"/>
+  <!-- Обратная связь (от клапана к датчику) -->
+  <line x1="460" y1="230" x2="460" y2="300" stroke="#000"/>
+  <line x1="460" y2="300" x2="90" y2="300" stroke="#000"/>
+  <line x1="90" y2="300" x2="90" y2="230" stroke="#000" marker-end="url(#arrow)"/>
+  <text x="275" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Обратная связь</text>
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+    </marker>
+  </defs>
+</svg>

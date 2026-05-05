@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Насос -->
+  <rect x="50" y="250" width="120" height="80" fill="#d0ffd0" stroke="#000"/>
+  <text x="110" y="295" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Насос</text>
+  <!-- Резервуар -->
+  <ellipse cx="300" cy="290" rx="80" ry="50" fill="#c0c0ff" stroke="#000"/>
+  <text x="300" y="295" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Резервуар</text>
+  <!-- Главный контроллер -->
+  <rect x="500" y="240" width="150" height="100" fill="#ffe0b0" stroke="#000"/>
+  <text x="575" y="285" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Главный контроллер</text>
+  <!-- Датчик давления -->
+  <rect x="250" y="150" width="80" height="80" fill="#f0f0f0" stroke="#000"/>
+  <text x="290" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Датчик
+    давления</text>
+  <!-- Электромагнитный клапан (мультивыбор) -->
+  <rect x="600" y="150" width="80" height="80" fill="#ffe0e0" stroke="#000"/>
+  <text x="640" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Электромагнитный
+    клапан</text>
+  <!-- Соединительные линии -->
+  <line x1="170" y1="290" x2="220" y2="290" stroke="#000" marker-end="url(#arrow)"/>
+  <line x1="380" y1="290" x2="440" y2="290" stroke="#000" marker-end="url(#arrow)"/>
+  <line x1="440" y1="290" x2="440" y2="190" stroke="#000"/>
+  <line x1="440" y2="190" x2="600" y2="190" stroke="#000" marker-end="url(#arrow)"/>
+  <line x1="250" y1="230" x2="250" y2="150" stroke="#000"/>
+  <line x1="250" y2="150" x2="600" y2="150" stroke="#000" marker-end="url(#arrow)"/>
+  <!-- Обратная связь -->
+  <line x1="600" y1="230" x2="600" y2="300" stroke="#000"/>
+  <line x1="600" y2="300" x2="175" y2="300" stroke="#000"/>
+  <line x1="175" y2="300" x2="175" y2="260" stroke="#000" marker-end="url(#arrow)"/>
+  <text x="380" y="340" font-family="Arial" font-size="12" text-anchor="middle" fill="#000">Обратная связь</text>
+  <!-- Маркеры стрелок -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+    </marker>
+  </defs>
+</svg>

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90_Архив/История_изменений.md",
+                "file": "30_Библиотека/Книги/Control_Valve_RU/Control_Valve_Handbook_RU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "История_изменений"
+              "title": "Control_Valve_Handbook_RU"
             }
           }
         ]
@@ -170,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,12 +185,19 @@
   },
   "active": "b4bf380014a8d5a2",
   "lastOpenFiles": [
+    "30_Библиотека/Каталог_Книг.md",
+    "30_Библиотека/Тригонометрия.md",
+    "10_Работа/system_equipment.svg",
+    "10_Работа/анализ_статзала_гидронагружатели.md",
+    "10_Работа/full_system_scheme.svg",
+    "10_Работа/channel_control.svg",
+    "30_Библиотека/Книги/Control_Valve_RU/Control_Valve_Handbook_RU.md",
+    "90_Архив/История_изменений.md",
     "README_AI.md",
     "00_Система/Скиллы_ИИ.md",
     "00_Система/Код_Стандарты.md",
     "05_Память",
     "00_Система/Relationships.md",
-    "30_Библиотека/Тригонометрия.md",
     "30_Библиотека/Книги/Modal_Testing_Vol2/Attachments/asset_p66_59.png",
     "30_Библиотека/Книги/Modal_Testing_Vol2/Attachments/asset_p20_17.png",
     "30_Библиотека/Книги/Modal_Testing_Vol2/Attachments/asset_p14_9.png",
@@ -200,7 +207,6 @@
     "20_Проекты/ALF/Экспл. док/Без названия.md",
     "20_Проекты/ALF/Экспл. док/Пользовательское соглашение.md",
     "20_Проекты/ALF/Экспл. док",
-    "90_Архив/История_изменений.md",
     "00_Система/Оглавление.md",
     "00_Система/01_Персональные_Данные/Аккаунты.md",
     "15_Дом/Личные_Системы.md",
@@ -216,24 +222,18 @@
     "20_Проекты/ALF/docs/SrcDocs/docs/Interfaces.md",
     "20_Проекты/ALF/docs/SrcDocs/docs/Status_Report.md",
     "20_Проекты/ALF/docs/SrcDocs/docs/TZ.md",
-    "20_Проекты/ALF/docs/SrcDocs/docs/Analogs.md",
     "20_Проекты/ALF/docs/SrcDocs/docs — ярлык.lnk",
     "20_Проекты/ALF/docs/SrcDocs/docs",
     "20_Проекты/ALF/docs/SrcDocs",
     "Без названия",
     "20_Проекты/ALF/docker-compose.yml",
-    "20_Проекты/Цех_Проектов.md",
     "10_Работа/РСС/Рабочие/Запуск заказа.canvas",
-    "10_Работа/РСС/Рабочие/Идеи для автоматизации.md",
     "10_Работа/РСС/Рабочие/Расположение шаблонов (обновить!).canvas",
     "10_Работа/РСС/Рабочие/Шаблон заказа V02.canvas",
     "Docs",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Приложения/Pasted image 20260428235059.png",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Приложения/Pasted image 20260428235456.png",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_03_Графические_объекты",
-    "15_Дом/Сети_и_Связь/приложения/Pasted image 20260428214443.png",
-    "15_Дом/Сети_и_Связь/приложения/Pasted image 20260428214314.png",
-    "15_Дом/Сети_и_Связь/приложения/Pasted image 20260428214052.png",
     "Без названия.canvas",
     "Без названия 2.canvas",
     "Без названия 1.canvas",

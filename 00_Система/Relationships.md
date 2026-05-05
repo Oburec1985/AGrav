@@ -11,6 +11,12 @@
 
 ```mermaid
 graph TD
+    subgraph "10_Работа / Оборудование"
+        StaticHydroHall["анализ_статзала_гидронагружатели.md"]
+        SensorsCalc["Расчеты тензодатчиков.md"]
+        ControlValveBook["Control_Valve_Handbook_RU.md"]
+    end
+
     subgraph "00_Система"
         MainIndex["Оглавление.md"]
         Skills["Скиллы_ИИ.md"]
@@ -39,6 +45,8 @@ graph TD
     RelMap -.-> MainIndex
     Skills -.-> RelMap
     Skills --> CodeStd
+    StaticHydroHall -.-> SensorsCalc
+    StaticHydroHall -.-> ControlValveBook
     
     Infrastructure --> NodeTemp
     NodeTemp -.-> Hiplet
@@ -64,6 +72,7 @@ graph TD
 | `OpenGLChartLazarus`          | `Lazarus/FPC`              | Depends On       | Целевая среда разработки и компиляции кроссплатформенного компонента.                                                             |
 | `40_Энциклопедия_Обхода`      | `15_Дом/Сети`              | Knowledge Source | Синтезированный справочник по методам обхода DPI.                                                                                 |
 | `Локализация_dxgettext.md`    | `Разработка_Delphi`        | References       | Инструмент для локализации проектов на Delphi.                                                                                    |
+| `анализ_статзала_гидронагружатели.md` | `Расчеты тензодатчиков.md` / `Control_Valve_Handbook_RU.md` | References | Рабочий анализ статзала опирается на измерение силы, гидроклапаны и датчики. |
 
 ---
 *Документ обновляется ИИ при каждом значимом изменении архитектуры или добавлении новых узлов.*
