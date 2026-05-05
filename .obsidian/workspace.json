@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Библиотека/Книги/Control_Valve_RU/Control_Valve_Handbook_RU.md",
+                "file": "20_Проекты/ALF/Экспл. док/Пользовательское соглашение.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control_Valve_Handbook_RU"
+              "title": "Пользовательское соглашение"
             }
           }
         ]
@@ -185,13 +185,13 @@
   },
   "active": "b4bf380014a8d5a2",
   "lastOpenFiles": [
+    "30_Библиотека/Книги/Control_Valve_RU/Control_Valve_Handbook_RU.md",
     "30_Библиотека/Каталог_Книг.md",
     "30_Библиотека/Тригонометрия.md",
     "10_Работа/system_equipment.svg",
     "10_Работа/анализ_статзала_гидронагружатели.md",
     "10_Работа/full_system_scheme.svg",
     "10_Работа/channel_control.svg",
-    "30_Библиотека/Книги/Control_Valve_RU/Control_Valve_Handbook_RU.md",
     "90_Архив/История_изменений.md",
     "README_AI.md",
     "00_Система/Скиллы_ИИ.md",
