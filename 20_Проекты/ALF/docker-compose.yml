@@ -19,6 +19,12 @@ services:
     container_name: alf_backend
     environment:
       DATABASE_URL: postgresql://alf_user:alf_password@db:5432/alf_database
+      # Настройки почты (переносим сюда)
+      SMTP_HOST: smtp.mail.ru
+      SMTP_PORT: 465
+      SMTP_USER: samera@mail.ru
+      SMTP_PASSWORD: soL4LEQgATsfYMF9hgVx
+      TELEGRAM_BOT_TOKEN: 8733900278:AAERioXqy6cEVtQZlmM7AJMACBMkL81zb6o
     ports:
       - "8000:8000"
     depends_on:

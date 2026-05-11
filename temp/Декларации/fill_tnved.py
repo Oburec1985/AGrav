@@ -6,6 +6,10 @@ import glob
 
 # === БЛОК АВТОНОМНОСТИ: Установка библиотек ===
 def ensure_dependencies():
+    # Если мы запущены как EXE, зависимости уже внутри, проверять не нужно
+    if getattr(sys, 'frozen', False):
+        return
+        
     required = ["pdfplumber", "openpyxl", "pandas"]
     for pkg in required:
         try:
@@ -234,7 +238,8 @@ def main():
     print(f"УСПЕХ! Всего обновлено строк: {updated_count}")
     print(f"Результат: {os.path.basename(output_path)}")
     print("-"*40)
-    input("\nНажмите Enter...")
+    if sys.stdin and sys.stdin.isatty():
+        input("\nНажмите Enter для выхода...")
 
 if __name__ == "__main__":
     main()

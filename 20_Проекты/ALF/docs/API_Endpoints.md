@@ -11,7 +11,13 @@ API строится по принципу REST и использует JSON д�
   - `radius`: Радиус в метрах (по умолчанию 5000).
   - `type`: `LOST` или `FOUND`.
   - `category_id`: ID категории.
-  - `query`: Поиск по тексту (заголовок/описание).
+  - `query`: Поиск по тексту (заголовок/описание/транспорт). 
+    *   Пробел между словами = **И** (должны встретиться оба).
+    *   Символ `|` между словами = **ИЛИ** (может встретиться любое).
+    *   Пример: `автобус|метро ключи` (найти ключи, потерянные в автобусе ИЛИ метро).
+  - `transport_type`: Фильтр по типу транспорта (автобус, метро и т.д.).
+  - `transport_from`: Фильтр по пункту отправления.
+  - `transport_to`: Фильтр по пункту назначения.
   - `offset`, `limit`: Пагинация.
 
 ### `GET /api/v1/items/{id}`
@@ -43,7 +49,7 @@ API строится по принципу REST и использует JSON д�
 
 ### `POST /api/v1/items`
 Создание нового объявления.
-- **Body**: `title`, `description`, `category_id`, `type`, `lat`, `lon`, `is_contact_public`, `reward_info`.
+- **Body**: `title`, `description`, `category_id`, `type`, `lat`, `lon`, `location_str`, `event_date`, `transport_type`, `transport_route_from`, `transport_route_to`, `is_contact_public`, `reward_info`.
 
 ### `PATCH /api/v1/items/{id}`
 Редактирование или смена статуса (например, закрытие объявления).
