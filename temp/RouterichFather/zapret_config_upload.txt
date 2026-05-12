@@ -1,0 +1,13 @@
+FWTYPE=nftables
+SET_MAXELEM=524288
+IPSET_OPT="hashsize 262144 maxelem 524288"
+DISABLE_IPV4=0
+DISABLE_IPV6=1
+MODE_FILTER=none
+NFQWS_ENABLE=1
+DESYNC_MARK=0x2
+DESYNC_MARK_POSTNAT=0x4
+NFQWS_OPT="--filter-tcp=80,443 --dpi-desync=fake,split2 --dpi-desync-split-pos=1 --new --filter-udp=443 --dpi-desync=fake --new"
+OPENWRT_LAN="lan"
+NFQWS="/opt/zapret/nfq/nfqws"
+TPWS="/opt/zapret/tpws/tpws"

@@ -7,12 +7,12 @@
 ## 🛠 Актуальные учетные данные (Secrets)
 *Эти данные нужно вставить в разделе "Переменные окружения" в панели Amvera:*
 
-| Переменная | Значение | Описание |
-| :--- | :--- | :--- |
-| `DATABASE_URL` | `postgresql://alf_user:alf_password@db:5432/alf_database` | Либо внешняя ссылка Supabase |
-| `SMTP_USER` | `samera@mail.ru` | Почта для уведомлений |
-| `SMTP_PASSWORD` | `soL4LEQgATsfYMF9hgVx` | Пароль приложения Mail.ru |
-| `TELEGRAM_BOT_TOKEN` | `8733900278:AAERioXqy6cEVtQZlmM7AJMACBMkL81zb6o` | Токен бота @ALF_Bot |
+| Переменная           | Значение                                                  | Описание                     |
+| :------------------- | :-------------------------------------------------------- | :--------------------------- |
+| `DATABASE_URL`       | `postgresql://alf_user:alf_password@db:5432/alf_database` | Либо внешняя ссылка Supabase |
+| `SMTP_USER`          | `samera@mail.ru`                                          | Почта для уведомлений        |
+| `SMTP_PASSWORD`      | `soL4LEQgATsfYMF9hgVx`                                    | Пароль приложения Mail.ru    |
+| `TELEGRAM_BOT_TOKEN` | `8733900278:AAERioXqy6cEVtQZlmM7AJMACBMkL81zb6o`          | Токен бота @ALF_Bot          |
 
 ---
 

@@ -1,0 +1,16 @@
+# 🛡️ Zapret Configuration (Oburec_Father)
+# Last updated: 12.05.2026
+
+FWTYPE=nftables
+SET_MAXELEM=524288
+IPSET_OPT="hashsize 262144 maxelem 524288"
+DISABLE_IPV4=0
+DISABLE_IPV6=1
+MODE_FILTER=none
+NFQWS_ENABLE=1
+DESYNC_MARK=0x2
+DESYNC_MARK_POSTNAT=0x4
+NFQWS_OPT="--filter-tcp=80 --dpi-desync=fake,multisplit --dpi-desync-split-pos=method+2 --dpi-desync-fooling=md5sig --new --filter-tcp=443 --dpi-desync=fake,split2 --dpi-desync-split-pos=1 --dpi-desync-fooling=md5sig --dpi-desync-autottl --new --filter-udp=443 --dpi-desync=fake --dpi-desync-repeats=6"
+OPENWRT_LAN="lan"
+NFQWS="/opt/zapret/nfq/nfqws"
+TPWS="/opt/zapret/tpws/tpws"

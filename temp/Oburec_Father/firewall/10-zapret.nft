@@ -1,0 +1,9 @@
+# ⛓️ Nftables Rules for Zapret (Oburec_Father)
+# Path on router: /etc/nftables.d/10-zapret.nft
+
+chain zapret_custom_forward {
+    type filter hook forward priority 0; policy accept;
+    # Skip packets already marked by ZeroBlock (0x40000000) or Zapret (0x2)
+    iifname "br-lan" tcp dport { 80, 443 } meta mark & 0x40000002 == 0x00000000 counter queue to 200
+    iifname "br-lan" udp dport 443 meta mark & 0x40000002 == 0x00000000 counter packets 2201 bytes 1797671 queue to 200
+}
