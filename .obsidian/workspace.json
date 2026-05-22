@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Система/01_Персональные_Данные/Аккаунты.md",
+                "file": "20_Проекты/FRF/plgEvalFRF_назначение_и_изменения_2026-05-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Аккаунты"
+              "title": "plgEvalFRF_назначение_и_изменения_2026-05-19"
             }
           }
         ]
@@ -183,8 +183,25 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "4ba6b92f2658fcc9",
+  "active": "b4bf380014a8d5a2",
   "lastOpenFiles": [
+    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С зарядовым выходом/Общего назначения/Однокомпонентный/Вибропреобразователь AP1037-01.md",
+    "15_Дом/Сети_и_Связь/40_Энциклопедия_Обхода/Энциклопедия_MOC.md",
+    "15_Дом/Сети_и_Связь/🌐_Сети_и_Связь.md",
+    "10_Теория_и_Методы",
+    "00_Система/Оглавление.md",
+    "10_Работа/Бизнес_Процессы/Работа_с_договорами.md",
+    "10_Работа/Бизнес_Процессы/Бизнес_процессы.md",
+    "10_Работа/Бизнес_Процессы/Бизнес_процесс_ТКП.md",
+    "20_Проекты/FRF/plgEvalFRF_назначение_и_изменения_2026-05-19.md",
+    "90_Архив/История_изменений.md",
+    "20_Проекты/plgEvalFRF_назначение_и_изменения_2026-05-19.md",
+    "20_Проекты/FRF",
+    "10_Работа/анализ_статзала_гидронагружатели.md",
+    "10_Работа/channel_control.svg",
+    "10_Работа/full_system_scheme.svg",
+    "10_Работа/system_equipment.svg",
+    "00_Система/01_Персональные_Данные/Аккаунты.md",
     "00_Система/01_Персональные_Данные/attachments/Pasted image 20260509220949.png",
     "00_Система/01_Персональные_Данные/attachments/Pasted image 20260511163542.png",
     "20_Проекты/ALF/cach/ALF_Deployment_Logs.md",
@@ -192,7 +209,6 @@
     "20_Проекты/ALF/DEPLOY_GUIDE.md",
     "knowledge",
     "20_Проекты/ALF/front/README.md",
-    "90_Архив/История_изменений.md",
     "README_AI.md",
     "20_Проекты/ALF/docs/DB_Schema.md",
     "20_Проекты/ALF/front",
@@ -204,27 +220,12 @@
     "20_Проекты/ALF/docs/TZ.md",
     "20_Проекты/ALF/docs/User_Agreement.md",
     "20_Проекты/ALF/INSTRUCTIONS_ENV.md",
-    "20_Проекты/ALF/docs/API_Endpoints.md",
     "temp/Oburec_Father/fix_pc_youtube.bat",
-    "temp/Oburec_Father/docs/HISTORY.md",
-    "temp/Oburec_Father/docs/CLEANUP_INSTRUCTIONS.md",
-    "temp/Oburec_Father/docs/DEPLOYMENT_GUIDE.md",
-    "00_Система/01_Персональные_Данные/Аккаунты.md",
-    "temp/RouterichFather/Аккаунты.md",
-    "temp/RouterichFather/ZeroBlock_Configuration_Log.md",
     "scratch/install_zapret.py",
     "temp/RouterichFather/Мини_мануал_по_установке_и_первоначальной_настройке_zeroblock.pdf",
     "temp/RouterichFather/Мини_мануал_по_установке_и_первоначальной_настройке_zeroblock.pdf.crdownload",
     "temp/RouterichFather/bu/backup-RouteRich-2026-05-10.tar.gz",
     "temp/RouterichFather/bu",
-    "00_Система/Технологический_стек.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Оглавление.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/cach/notes_skeleton.md",
-    "00_Система/Obsidian/Без названия",
-    "temp/Декларации.zip",
-    "10_Работа/system_equipment.svg",
-    "10_Работа/full_system_scheme.svg",
-    "10_Работа/channel_control.svg",
     "30_Библиотека/Книги/Modal_Testing_Vol2/Attachments/asset_p66_59.png",
     "30_Библиотека/Книги/Modal_Testing_Vol2/Attachments/asset_p20_17.png",
     "30_Библиотека/Книги/Modal_Testing_Vol2/Attachments/asset_p14_9.png",
