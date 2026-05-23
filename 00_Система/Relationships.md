@@ -37,6 +37,8 @@ graph TD
         SQLSensors["SQLSensorsDB"]
         Bridge["Future API Bridge"]
         OglChart["OpenGLChartLazarus"]
+        RecorderLnx["RecorderLnx"]
+        LegacyRecorder["Windows Recorder interfaces"]
         LegacyCChart["Delphi cChart"]
         LazarusFPC["Lazarus/FPC"]
     end
@@ -55,6 +57,8 @@ graph TD
     Bridge -.-> Infrastructure
     OglChart -.-> LegacyCChart
     OglChart --> LazarusFPC
+    RecorderLnx --> LazarusFPC
+    RecorderLnx -.-> LegacyRecorder
     OglChart --> CodeStd
     
     BypassWiki -.-> Devices
@@ -71,6 +75,7 @@ graph TD
 | `OpenGLChartLazarus`          | `Delphi cChart`            | References       | Новый Lazarus/FPC-компонент проектируется по мотивам существующего Delphi-компонента из `sharedUtils/компоненты/chart_dpk/chart`. |
 | `OpenGLChartLazarus`          | `Lazarus/FPC`              | Depends On       | Целевая среда разработки и компиляции кроссплатформенного компонента.                                                             |
 | `40_Энциклопедия_Обхода`      | `15_Дом/Сети`              | Knowledge Source | Синтезированный справочник по методам обхода DPI.                                                                                 |
+| `RecorderLnx` | `Lazarus/FPC` / `Windows Recorder interfaces` | Depends On / References | Новый Linux Recorder на Lazarus/FPC проектируется на основе функционального анализа интерфейсов Windows Recorder без прямого переноса COM-зависимости. |
 | `Локализация_dxgettext.md`    | `Разработка_Delphi`        | References       | Инструмент для локализации проектов на Delphi.                                                                                    |
 | `анализ_статзала_гидронагружатели.md` | `Расчеты тензодатчиков.md` / `Control_Valve_Handbook_RU.md` | References | Рабочий анализ статзала опирается на измерение силы, гидроклапаны и датчики. |
 
