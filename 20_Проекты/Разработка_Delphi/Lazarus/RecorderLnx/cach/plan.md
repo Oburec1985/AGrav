@@ -1,4 +1,4 @@
-﻿# План работ RecorderLnx
+# План работ RecorderLnx
 
 ## Текущий этап
 
