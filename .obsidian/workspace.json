@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90_Архив/История_изменений.md",
+                "file": "00_Система/05_Память/Snapshots/Snapshot_2026-04-21_Memory_Evolution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "История_изменений"
+              "title": "Snapshot_2026-04-21_Memory_Evolution"
             }
           }
         ]
@@ -185,10 +185,18 @@
   },
   "active": "b4bf380014a8d5a2",
   "lastOpenFiles": [
-    "20_Проекты/ALF/docs/Interfaces.md",
-    "90_Архив/История_изменений.md",
-    "00_Система/Код_Стандарты.md",
+    "00_Система/05_Память/Snapshots/readme.md",
+    "00_Система/05_Память/Dreams/readme.md",
+    "00_Система/05_Память/Dreams/Dream_Report_2026-04-21_23-41-55.md",
+    "00_Система/05_Память/Dreams/Dream_Report_001_System_Inception.md",
+    "00_Система/Relationships.md",
+    "00_Система/Технологический_стек.md",
     "00_Система/Скиллы_ИИ.md",
+    "00_Система/Оглавление.md",
+    "README_AI.md",
+    "90_Архив/История_изменений.md",
+    "20_Проекты/ALF/docs/Interfaces.md",
+    "00_Система/Код_Стандарты.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/01_Архитектура.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/00_Вводная.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/09_VM_Atra_Lazarus.md",
@@ -206,14 +214,6 @@
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/02_Правила_Разработки.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TXmlChartSerializer.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TZoomTool.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TChartCursor.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TChartAxis.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/IChartTool.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/IChartRenderer.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/IChartFrameListener.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/04_User_Events.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/03_Render_Tree.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/02_Design_Notes.md",
     "temp/К.Н.Боришанский.КОЛЕБАНИЯ_РАБОЧИХ_ЛОПАТОК_ПАРОВЫХ_ТУРБИН_И_МЕРЫ_БОРЬБЫ_С_НИМИ.pdf",
     "temp/МЕРА/Recorder/Recorder. Руководство пользователя.pdf",
     "temp/МЕРА/Recorder",
