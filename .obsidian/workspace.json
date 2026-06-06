@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Система/05_Память/Snapshots/Snapshot_2026-04-21_Memory_Evolution.md",
+                "file": "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/00_Вводная.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Snapshot_2026-04-21_Memory_Evolution"
+              "title": "00_Вводная"
             }
           }
         ]
@@ -185,6 +185,18 @@
   },
   "active": "b4bf380014a8d5a2",
   "lastOpenFiles": [
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/01_Архитектура.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/00_Вводная.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/02_Правила_Разработки.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/03_Карта_Интерфейсов.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/04_План_Первой_Итерации.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/05_Решения_и_Вопросы.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/06_Идеи_из_руководства_Recorder.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/07_UI_Ориентир_Recorder.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/08_Карта_Исходников_Оригинального_Recorder.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/09_VM_Atra_Lazarus.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/10_Диалог_Настройки.md",
+    "00_Система/05_Память/Snapshots/Snapshot_2026-04-21_Memory_Evolution.md",
     "00_Система/05_Память/Snapshots/readme.md",
     "00_Система/05_Память/Dreams/readme.md",
     "00_Система/05_Память/Dreams/Dream_Report_2026-04-21_23-41-55.md",
@@ -197,23 +209,11 @@
     "90_Архив/История_изменений.md",
     "20_Проекты/ALF/docs/Interfaces.md",
     "00_Система/Код_Стандарты.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/01_Архитектура.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/00_Вводная.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/09_VM_Atra_Lazarus.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/assets/settings_devices_reference.svg",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/10_Диалог_Настройки.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/assets/settings_recorder_reference.svg",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/assets",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Summary.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/08_Карта_Исходников_Оригинального_Recorder.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/07_UI_Ориентир_Recorder.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/06_Идеи_из_руководства_Recorder.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/05_Решения_и_Вопросы.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/04_План_Первой_Итерации.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/03_Карта_Интерфейсов.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/02_Правила_Разработки.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TXmlChartSerializer.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TZoomTool.md",
     "temp/К.Н.Боришанский.КОЛЕБАНИЯ_РАБОЧИХ_ЛОПАТОК_ПАРОВЫХ_ТУРБИН_И_МЕРЫ_БОРЬБЫ_С_НИМИ.pdf",
     "temp/МЕРА/Recorder/Recorder. Руководство пользователя.pdf",
     "temp/МЕРА/Recorder",
