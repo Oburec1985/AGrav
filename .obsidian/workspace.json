@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/00_Вводная.md",
+                "file": "20_Проекты/CoachPay/Описание.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_Вводная"
+              "title": "Описание"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "b4bf380014a8d5a2",
   "lastOpenFiles": [
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/01_Архитектура.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/00_Вводная.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/01_Архитектура.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/02_Правила_Разработки.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/03_Карта_Интерфейсов.md",
     "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/04_План_Первой_Итерации.md",
