@@ -1,4 +1,4 @@
-﻿# RecorderLnx: идеи из руководства пользователя Recorder
+# RecorderLnx: идеи из руководства пользователя Recorder
 
 Источник: `D:\works\AGrav\temp\МЕРА\Recorder\Recorder. Руководство пользователя.pdf`, редакция 3.2, 2023.
 
