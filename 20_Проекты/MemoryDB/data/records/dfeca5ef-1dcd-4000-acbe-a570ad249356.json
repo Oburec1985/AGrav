@@ -1,0 +1,15 @@
+{
+  "id": "dfeca5ef-1dcd-4000-acbe-a570ad249356",
+  "fact": "В RecorderLnx приняты решения: 1) Общий код Lazarus-проектов выносится в обособленную библиотеку Lazarus\\SharedUtils для изоляции от Delphi. 2) Время вынесено в подсистему TRecorderTimeSystem. 3) Запись данных ведется в каталоги кадров через TRecorderCsvTagWriter.",
+  "tags": [
+    "recorderlnx",
+    "architecture",
+    "decisions",
+    "performance",
+    "storage",
+    "time"
+  ],
+  "project_context": "RecorderLnx",
+  "source_file": "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/05_Архитектурные_Решения.md",
+  "created_at": "2026-06-09T11:52:58.295465"
+}

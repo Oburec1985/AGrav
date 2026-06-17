@@ -1,0 +1,15 @@
+{
+  "id": "3063120d-7254-404b-8fc5-1aeaad198210",
+  "fact": "Для редактирования Delphi/Lazarus исходников (.pas, .dfm) AI-ассистентом с сохранением кодировки Windows-1251 (CP1251) и окончаний строк CRLF применяется двухэтапный метод: запись временного .utf8.pas файла, его перекодирование/замена переносов через PowerShell-скрипт с кодировкой 1251 без BOM, и удаление временного файла.",
+  "tags": [
+    "encoding",
+    "cp1251",
+    "crlf",
+    "delphi",
+    "lazarus",
+    "powershell"
+  ],
+  "project_context": "OpenGLChartLazarus",
+  "source_file": "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/метода_кодирования.md",
+  "created_at": "2026-06-09T11:52:58.438327"
+}

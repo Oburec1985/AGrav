@@ -1,0 +1,14 @@
+{
+  "id": "31e8bdd0-afe5-4cce-b4ca-a679480aefb8",
+  "fact": "Архитектура RecorderLnx базируется на слоях: машина состояний (rsStop, rsPreview/Armed, rsRecord/Armed), реестр тегов (TTagRegistry, TTag, TRecorderSignalBuffer), потоки сбора (TRecorderDataSourceThread, IRecorderDataSource) и синхронная шина событий (TRecorderEventBus) с потокобезопасной очередью снимков для UI (TRecorderEventSnapshotQueue).",
+  "tags": [
+    "recorderlnx",
+    "architecture",
+    "state-machine",
+    "multithreading",
+    "eventbus"
+  ],
+  "project_context": "RecorderLnx",
+  "source_file": "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/01_Архитектура.md",
+  "created_at": "2026-06-09T11:52:58.255286"
+}

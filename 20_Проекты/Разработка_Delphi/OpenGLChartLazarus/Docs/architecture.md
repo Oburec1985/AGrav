@@ -1,3 +1,8 @@
+---
+memory_id: 63628ab7-c537-4437-995c-aa52277efb2f
+indexed_at: 2026-06-09T11:52:58.426824
+---
+
 # OglChart — Кроссплатформенный OpenGL-чарт для Lazarus
 
 ## Обзор

@@ -1,0 +1,14 @@
+{
+  "id": "63628ab7-c537-4437-995c-aa52277efb2f",
+  "fact": "Модель OpenGL-чарта OglChart строится как дерево объектов (cChart -> cBasePage -> cAxis -> cTrend/cLineSeries) на основе cBaseObj. Визуальные координаты используют FloatRect (cDrawObj). Вся LCL-отрисовка вынесена в рендер TOpenGLChartRenderer, а события мыши/клавиатуры обрабатываются через TChartFrameListener.",
+  "tags": [
+    "oglchart",
+    "architecture",
+    "rendering",
+    "hierarchy",
+    "events"
+  ],
+  "project_context": "OpenGLChartLazarus",
+  "source_file": "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/architecture.md",
+  "created_at": "2026-06-09T11:52:58.397188"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "325b1029-b4c1-45c8-b1f9-8cd8168a41f2",
+  "fact": "RecorderLnx — нативное измерительное приложение на Lazarus/FPC (Windows/Linux) для сбора, отображения, записи данных. Концептуально наследует идеи Windows Recorder (IRecorder, ITag, IModule, IVForm), но полностью исключает Windows-only COM и WinAPI зависимости, используя C ABI без managed-типов для плагинов.",
+  "tags": [
+    "recorderlnx",
+    "architecture",
+    "introduction",
+    "lazarus"
+  ],
+  "project_context": "RecorderLnx",
+  "source_file": "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/00_Вводная.md",
+  "created_at": "2026-06-09T11:52:58.213128"
+}

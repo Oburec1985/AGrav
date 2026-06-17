@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "local-memory-db": {
+      "command": "python",
+      "args": ["d:/works/AGrav/20_Проекты/MemoryDB/src/main.py"],
+      "env": {
+        "PYTHONPATH": "d:/works/AGrav/20_Проекты/MemoryDB"
+      }
+    }
+  }
+}
