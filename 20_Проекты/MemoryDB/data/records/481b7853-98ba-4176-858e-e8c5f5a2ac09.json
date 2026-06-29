@@ -1,0 +1,14 @@
+{
+  "id": "481b7853-98ba-4176-858e-e8c5f5a2ac09",
+  "fact": "OpenGLChartLazarus — кроссплатформенный OpenGL-компонент графиков (Lazarus/FPC), заменяющий legacy Delphi-компонент cChart. Проектируется с разделением на LCL-контрол, рендер, интерактивные инструменты, независимую модель данных графика и платформенно-нейтральный JSON-сериализатор.",
+  "tags": [
+    "oglchart",
+    "architecture",
+    "introduction",
+    "lazarus",
+    "opengl"
+  ],
+  "project_context": "OpenGLChartLazarus",
+  "source_file": "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Описание.md",
+  "created_at": "2026-06-09T11:52:58.361721"
+}

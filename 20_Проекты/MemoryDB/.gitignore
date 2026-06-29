@@ -1,0 +1,4 @@
+data/memory_store.db/
+model_cache/
+__pycache__/
+*.pyc
