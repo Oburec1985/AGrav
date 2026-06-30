@@ -17,6 +17,10 @@ graph TD
         ControlValveBook["Control_Valve_Handbook_RU.md"]
     end
 
+    subgraph "10_Работа / Программирование"
+        RLM["Recursive_Language_Models.md"]
+    end
+
     subgraph "00_Система"
         MainIndex["Оглавление.md"]
         Skills["Скиллы_ИИ.md"]
@@ -47,6 +51,7 @@ graph TD
     RelMap -.-> MainIndex
     Skills -.-> RelMap
     Skills --> CodeStd
+    Skills -.-> RLM
     StaticHydroHall -.-> SensorsCalc
     StaticHydroHall -.-> ControlValveBook
     
@@ -78,6 +83,7 @@ graph TD
 | `RecorderLnx` | `Lazarus/FPC` / `Windows Recorder interfaces` | Depends On / References | Новый Linux Recorder на Lazarus/FPC проектируется на основе функционального анализа интерфейсов Windows Recorder без прямого переноса COM-зависимости. |
 | `Локализация_dxgettext.md`    | `Разработка_Delphi`        | References       | Инструмент для локализации проектов на Delphi.                                                                                    |
 | `анализ_статзала_гидронагружатели.md` | `Расчеты тензодатчиков.md` / `Control_Valve_Handbook_RU.md` | References | Рабочий анализ статзала опирается на измерение силы, гидроклапаны и датчики. |
+| `Recursive_Language_Models.md` | `Скиллы_ИИ.md`            | References       | Архитектурная методология ИИ-агентов для интерактивной работы со сверхдлинным контекстом. |
 
 ---
 *Документ обновляется ИИ при каждом значимом изменении архитектуры или добавлении новых узлов.*
