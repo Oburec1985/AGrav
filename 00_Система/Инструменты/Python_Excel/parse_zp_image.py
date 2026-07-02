@@ -602,25 +602,41 @@ def compact_text(text, limit=80):
 def build_salary_blocks(x_coords):
     """Группирует вертикальные линии в независимые зарплатные блоки."""
     blocks = []
-
-    # В этих JPG каждый блок - отдельная мини-таблица из трех вертикальных линий:
-    # левая граница, разделитель "начисление/значение", правая граница.
-    if len(x_coords) >= 3 and len(x_coords) % 3 == 0:
-        for i in range(0, len(x_coords) - 2, 3):
-            x1, x2, x3 = x_coords[i], x_coords[i+1], x_coords[i+2]
+    i = 0
+    while i < len(x_coords) - 2:
+        x1 = x_coords[i]
+        best_match = None
+        for j in range(i + 1, len(x_coords) - 1):
+            x2 = x_coords[j]
             label_w = x2 - x1
-            value_w = x3 - x2
-            if label_w >= 40 and value_w >= 35:
-                blocks.append((i, x1, x2, x3))
-
-        if len(blocks) == len(x_coords) // 3:
-            return blocks
-
-    # Запасной режим для таблиц без зазоров между блоками.
-    for i in range(0, len(x_coords) - 2, 2):
-        x1, x2, x3 = x_coords[i], x_coords[i+1], x_coords[i+2]
-        if x2 - x1 >= 40 and x3 - x2 >= 35:
+            if label_w < 40:
+                continue
+            if label_w > 150:
+                break
+            
+            for k in range(j + 1, len(x_coords)):
+                x3 = x_coords[k]
+                value_w = x3 - x2
+                if value_w < 30:
+                    continue
+                if value_w > 80:
+                    break
+                
+                # Оценка кандидата
+                score = 0
+                if 85 <= label_w <= 125: score += 2
+                if 40 <= value_w <= 70: score += 2
+                if label_w > value_w: score += 1
+                
+                if best_match is None or score > best_match[0]:
+                    best_match = (score, j, k, x1, x2, x3)
+        
+        if best_match is not None and best_match[0] >= 3:
+            score, j, k, x1, x2, x3 = best_match
             blocks.append((i, x1, x2, x3))
+            i = k
+        else:
+            i += 1
     return blocks
 
 def is_payout_row_label(text):
@@ -702,8 +718,8 @@ def parse_image(image_path, tessdata_dir="", employee_dict=None):
             merged.append(int(round(sum(group) / len(group))))
             return merged
 
-        x_coords = merge_close_coords(sorted(get_coords(v_lines, True)))
-        y_coords = merge_close_coords(sorted(get_coords(h_lines, False)))
+        x_coords = merge_close_coords(sorted(get_coords(v_lines, True)), min_gap=2)
+        y_coords = merge_close_coords(sorted(get_coords(h_lines, False)), min_gap=2)
         
         log(f"Найдено линий: X={len(x_coords)}, Y={len(y_coords)}")
         
