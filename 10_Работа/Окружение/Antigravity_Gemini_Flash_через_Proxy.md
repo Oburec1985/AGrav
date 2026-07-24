@@ -1,3 +1,8 @@
+---
+memory_id: 3865ae15-28a7-4043-9348-739e6302cb3c
+hash: 18849bcfe608212fba5330a852fc2c55
+last_indexed: '2026-07-07T09:41:33.703625'
+---
 # 🤖 Antigravity: Gemini Flash через Proxy
 
 Краткая инструкция по подключению `Gemini Flash` в окружении Antigravity через прокси.

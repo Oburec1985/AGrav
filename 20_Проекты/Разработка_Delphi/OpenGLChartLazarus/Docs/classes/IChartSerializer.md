@@ -1,3 +1,8 @@
+---
+memory_id: 36395791-142e-4200-8e69-f8eaf7588b16
+hash: aeda0bd53658b4dd55fd10d444e6b4b5
+last_indexed: '2026-07-07T11:07:51.416475'
+---
 # IChartSerializer
 
 ## Ответственность
@@ -29,4 +34,4 @@
 - [TChartModel](TChartModel.md)
 - [TChartObject](TChartObject.md)
 - [TChartLayoutRect](TChartLayoutRect.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

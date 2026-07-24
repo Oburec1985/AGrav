@@ -1,3 +1,8 @@
+---
+memory_id: df92adc9-72c7-4cd7-9415-3bb8eaec63f5
+hash: ae7494da8fb79671cbcfe2b6bc21df3f
+last_indexed: '2026-07-07T11:08:03.142360'
+---
 # TChartStyleSet
 
 ## Ответственность
@@ -19,4 +24,4 @@
 
 - [TChartModel](TChartModel.md)
 - [TOpenGLChartRenderer](TOpenGLChartRenderer.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

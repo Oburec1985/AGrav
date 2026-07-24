@@ -1,3 +1,8 @@
+---
+memory_id: 5d8718b8-db37-4be6-82b7-36786154d40c
+hash: d67e04c10bf613b37ac62685b38cfdbe
+last_indexed: '2026-07-07T11:08:06.908003'
+---
 # TLineSeries
 
 ## Ответственность
@@ -21,4 +26,4 @@
 
 - [TChartSeries](TChartSeries.md)
 - [TOpenGLChartRenderer](TOpenGLChartRenderer.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

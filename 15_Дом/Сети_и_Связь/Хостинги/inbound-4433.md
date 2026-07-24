@@ -1,3 +1,8 @@
+---
+memory_id: 3701e4dc-a95f-43d8-ab66-fa3f502d06b0
+hash: dc8942bc82b680503fa2657c182bb397
+last_indexed: '2026-07-07T09:41:46.476623'
+---
 Экспорт
 {
   "id": 8,

@@ -1,3 +1,8 @@
+---
+memory_id: 31299dca-cdc6-4387-a0f6-6ad913deb0cf
+hash: b75e812ad55c0b188913cce21ca8fae6
+last_indexed: '2026-07-07T11:07:56.476736'
+---
 # TChartDrawContext
 
 ## Ответственность
@@ -28,4 +33,4 @@
 - [TChartObject](TChartObject.md)
 - [TOpenGLChartRenderer](TOpenGLChartRenderer.md)
 - [TChartViewport](TChartViewport.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

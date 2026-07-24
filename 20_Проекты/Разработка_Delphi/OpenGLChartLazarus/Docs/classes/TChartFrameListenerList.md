@@ -1,3 +1,8 @@
+---
+memory_id: 98954624-b0c2-42d7-963a-1d24f73956f0
+hash: 30ebe572574407fa6559dbdb5ea9878d
+last_indexed: '2026-07-07T11:07:57.371360'
+---
 # TChartFrameListenerList
 
 ## Ответственность
@@ -24,4 +29,4 @@
 - [IChartFrameListener](IChartFrameListener.md)
 - [TChartToolController](TChartToolController.md)
 - [TOglChartControl](TOglChartControl.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

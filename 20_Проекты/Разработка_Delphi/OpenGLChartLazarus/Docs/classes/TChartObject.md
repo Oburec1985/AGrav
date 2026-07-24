@@ -1,3 +1,8 @@
+---
+memory_id: 76232992-df4c-4986-8c01-cc7ebcfbb72b
+hash: 06dbdd956b3ae6337a2c5038a9835fd4
+last_indexed: '2026-07-07T11:07:59.989939'
+---
 # TChartObject
 
 ## Ответственность
@@ -47,4 +52,4 @@
 - [TChartDrawContext](TChartDrawContext.md)
 - [IChartFrameListener](IChartFrameListener.md)
 - [TChartPage](TChartPage.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

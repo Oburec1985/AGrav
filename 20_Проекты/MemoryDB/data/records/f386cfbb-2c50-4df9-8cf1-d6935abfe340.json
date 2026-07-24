@@ -1,0 +1,13 @@
+{
+  "id": "f386cfbb-2c50-4df9-8cf1-d6935abfe340",
+  "fact": "В Lazarus (LCL) проектах (например, RecorderLnx) при сохранении файлов в cp1251 все русские строковые константы, присваиваемые свойствам компонентов LCL (Caption, Text, Items и т.д.) в коде, обязательно оборачивать в CP1251ToUTF8() из модуля LConvEncoding, иначе они отображаются знаками вопроса (????).",
+  "tags": [
+    "lazarus",
+    "encoding",
+    "cp1251",
+    "utf8"
+  ],
+  "project_context": "RecorderLnx",
+  "source_file": null,
+  "created_at": "2026-07-07T09:35:33.306425"
+}

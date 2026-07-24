@@ -1,3 +1,8 @@
+---
+memory_id: 5c8f7e67-0e70-44b4-88dd-c2ac04a66e76
+hash: 0d51711bd99a445b09fc64a83cc4015a
+last_indexed: '2026-07-07T11:08:10.608586'
+---
 # TOpenGLChartRenderer
 
 ## Ответственность
@@ -40,4 +45,4 @@ Renderer должен уважать режим координат каждог�
 - [TChartModel](TChartModel.md)
 - [TChartObject](TChartObject.md)
 - [TChartDrawContext](TChartDrawContext.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

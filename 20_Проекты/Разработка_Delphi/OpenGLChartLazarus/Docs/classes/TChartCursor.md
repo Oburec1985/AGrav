@@ -1,3 +1,8 @@
+---
+memory_id: 02a19580-36a2-44b7-847a-8f0a07f7a764
+hash: 5583c60058120ff25277b4ee384a00f5
+last_indexed: '2026-07-07T11:07:55.531157'
+---
 # TChartCursor
 
 ## Ответственность
@@ -19,4 +24,4 @@
 
 - [TChartPage](TChartPage.md)
 - [TCursorTool](TCursorTool.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

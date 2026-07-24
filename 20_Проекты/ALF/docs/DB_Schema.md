@@ -1,3 +1,8 @@
+---
+memory_id: 7e5a960b-50aa-4d15-94cd-da82e599ea7b
+hash: 69b77af6a26ddc62995de01f8ba0ebd5
+last_indexed: '2026-07-07T09:41:52.085641'
+---
 # Схема базы данных ALF (Lost & Found)
 
 В проекте используется PostgreSQL с расширением **PostGIS** для работы с географическими координатами.

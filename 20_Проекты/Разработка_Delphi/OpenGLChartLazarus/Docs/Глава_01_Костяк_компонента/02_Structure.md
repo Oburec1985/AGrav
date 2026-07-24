@@ -1,3 +1,8 @@
+---
+memory_id: 981ced59-bdf9-49a7-b373-1af7339f0ab4
+hash: 41c4aff971902c4069bf639e63a3c947
+last_indexed: '2026-07-07T11:08:16.989126'
+---
 # OpenGLChartLazarus: структура компонента
 
 Документ описывает целевую структуру будущего Lazarus-компонента. Это не финальный API, а первая архитектурная рамка для обсуждения.
@@ -9,33 +14,33 @@
 ### 1. LCL-контрол
 
 Отвечает за встраивание в Lazarus-форму, размеры, фокус, события мыши и клавиатуры.
-Предполагаемая роль: [TOglChartControl](classes/TOglChartControl.md) как узкий визуальный контейнер.
+Предполагаемая роль: [TOglChartControl](../classes/TOglChartControl.md) как узкий визуальный контейнер.
 
 ### 2. OpenGL backend
 
 Отвечает за создание и обслуживание OpenGL-контекста, swap buffers, resize viewport, базовую инициализацию состояния.
 
-Целевая роль: [IOpenGLContextHost](classes/IOpenGLContextHost.md) и [TOpenGLChartRenderer](classes/TOpenGLChartRenderer.md).
+Целевая роль: [IOpenGLContextHost](../classes/IOpenGLContextHost.md) и [TOpenGLChartRenderer](../classes/TOpenGLChartRenderer.md).
 
 ### 3. Модель графика
 
 Хранит страницы, серии, оси, курсоры, подписи, легенду и другие объекты без прямой зависимости от оконной системы.
 
-Базовый уровень модели: [TChartObject](classes/TChartObject.md). Через него страницы, frame listeners, редакторы и рендер получают общий интерфейс: layout, bounds, hit-test, children и режим координат.
+Базовый уровень модели: [TChartObject](../classes/TChartObject.md). Через него страницы, frame listeners, редакторы и рендер получают общий интерфейс: layout, bounds, hit-test, children и режим координат.
 
 Цель: дать возможность тестировать модель отдельно от OpenGL.
 ### 4. Рендер
 
-Преобразует модель графика в OpenGL-команды через [IChartRenderer](classes/IChartRenderer.md).
+Преобразует модель графика в OpenGL-команды через [IChartRenderer](../classes/IChartRenderer.md).
 Отдельно надо решить, какие части старого shader-подхода переносим напрямую, а какие переписываем под новый backend.
 
 ### 5. Интерактивные инструменты
 
 Масштабирование, выделение, перетаскивание, редактирование точек, курсоры и контекстные действия должны быть оформлены как управляемые режимы или обработчики.
 
-Целевая роль: [TChartToolController](classes/TChartToolController.md) и отдельные реализации [IChartTool](classes/IChartTool.md).
+Целевая роль: [TChartToolController](../classes/TChartToolController.md) и отдельные реализации [IChartTool](../classes/IChartTool.md).
 
-Ниже инструментов нужен слой [IChartFrameListener](classes/IChartFrameListener.md): он описывает контекстные реакции на события. Listener можно включать и выключать в зависимости от режима, не меняя сами объекты.
+Ниже инструментов нужен слой [IChartFrameListener](../classes/IChartFrameListener.md): он описывает контекстные реакции на события. Listener можно включать и выключать в зависимости от режима, не меняя сами объекты.
 
 ### 6. Сериализация и настройки
 

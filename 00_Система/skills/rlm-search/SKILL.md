@@ -1,16 +1,17 @@
 ---
 name: rlm-search
-description: >-
-  Системный навык RLM (Recursive Language Models): итеративный поиск, сверка
-  с оригиналом, анализ логов и длинного контекста без context rot. Для любого
-  ИИ-агента; практический протокол задач.
+description: 'Системный навык RLM (Recursive Language Models): итеративный поиск,
+  сверка с оригиналом, анализ логов и длинного контекста без context rot. Для любого
+  ИИ-агента; практический протокол задач.'
+memory_id: 87a09901-244c-43db-8d9f-5199a7714663
+hash: 5594d7dabe980f73567c49d96860c018
+last_indexed: '2026-07-07T11:07:27.486575'
 ---
-
 # RLM — выполнение и поиск
 
 **Для агентов (Cursor/Codex):** этот файл — основной протокол.  
 **Теория + Python:** [reference.md](reference.md)  
-**Архитектура:** [Recursive_Language_Models.md](../../10_Работа/Программирование/Методологии/Recursive_Language_Models.md)  
+**Архитектура:** [Recursive_Language_Models.md](../../../10_Работа/Программирование/Методологии/Recursive_Language_Models.md)  
 **Cursor-копия:** `~/.cursor/skills/rlm-search/SKILL.md`
 
 ## Когда использовать
@@ -26,13 +27,14 @@ description: >-
 
 ## API → инструменты
 
-| RLM | Агент |
-|-----|--------|
+| RLM | Агент / Инструменты |
+|-----|---------------------|
 | `context` | Пути, репо; читать выборочно |
-| REPL-цикл | grep, semantic search, read, shell |
+| REPL-цикл | grep, `search_vault_notes` (семантический поиск), read, shell |
 | `llm_query` | Анализ одного фрагмента |
 | `rlm_query` | Subagent / Task с узким промптом |
 | `answer["ready"]` | Чеклист «задание закрыто» |
+| `sync` | `sync_vault_notes` (обновление индекса заметок после правок) |
 
 ## Алгоритм задачи
 
@@ -81,4 +83,4 @@ captures/YYYY-MM-DD_mic140_compare_notes.md
 ## Подробности
 
 - Полный справочник и Python: [reference.md](reference.md)
-- История методологии: [История_изменений.md](../../90_Архив/История_изменений.md)
+- История методологии: [История_изменений.md](../../../90_Архив/История_изменений.md)
