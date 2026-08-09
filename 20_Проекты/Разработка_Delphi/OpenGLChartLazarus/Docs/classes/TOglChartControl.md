@@ -1,3 +1,8 @@
+---
+memory_id: 23e6f57a-18dd-48f6-83f2-2bce5264ae75
+hash: 1b32f8880495ca8cdba21b5f645a7265
+last_indexed: '2026-07-07T11:08:09.078773'
+---
 # TOglChartControl
 
 ## Ответственность
@@ -43,4 +48,4 @@ Float-геометрия страниц при этом сохраняется, 
 - [TChartToolController](TChartToolController.md)
 - [TChartLayoutRect](TChartLayoutRect.md)
 - [TChartFrameListenerList](TChartFrameListenerList.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

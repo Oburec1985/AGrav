@@ -1,3 +1,8 @@
+---
+memory_id: ca54fba9-8b89-41a5-810e-13807c002167
+hash: c5e9390ee6fa9c253e9a1203fdb095b4
+last_indexed: '2026-07-07T11:07:53.592561'
+---
 # TChartAnnotation
 
 ## Ответственность
@@ -19,4 +24,4 @@
 
 - [TChartPage](TChartPage.md)
 - [TSelectTool](TSelectTool.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

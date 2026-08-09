@@ -1,3 +1,8 @@
+---
+memory_id: 743611c8-8d56-476c-b14f-0e176a331b7d
+hash: edec39c1b61efb5da922fbafab2cf89d
+last_indexed: '2026-07-07T11:07:54.595221'
+---
 # TChartAxis
 
 ## Ответственность
@@ -19,4 +24,4 @@
 
 - [TChartPage](TChartPage.md)
 - [TOpenGLChartRenderer](TOpenGLChartRenderer.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

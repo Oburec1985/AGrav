@@ -1,3 +1,8 @@
+---
+memory_id: f4f903b5-2ec5-4fe4-9929-f35f553767d5
+hash: 7c13a5ff19f1a2868a0649aba3a41f4d
+last_indexed: '2026-07-07T09:37:16.328863'
+---
 # Excel MCP Server Tools
 
 This document provides detailed information about all available tools on the Excel MCP server. Currently, this is not a classic MCP.

@@ -5,7 +5,7 @@ from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue, MatchAny
 
-from src.config import DB_PATH, COLLECTION_NAME, RECORDS_DIR
+from src.config import DB_PATH, COLLECTION_NAME, NOTES_COLLECTION_NAME, RECORDS_DIR
 from src.embeddings import LocalEmbedder
 
 class MemoryDatabase:
@@ -15,6 +15,7 @@ class MemoryDatabase:
         self.client = QdrantClient(path=DB_PATH)
         self.embedder = LocalEmbedder()
         self._ensure_collection()
+        self._ensure_notes_collection()
         self._sync_with_disk()
         
     def _sync_with_disk(self):
@@ -124,6 +125,15 @@ class MemoryDatabase:
             vector_size = self.embedder.get_vector_size()
             self.client.create_collection(
                 collection_name=COLLECTION_NAME,
+                vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
+            )
+            
+    def _ensure_notes_collection(self):
+        """Проверяет существование коллекции для заметок и создает ее при необходимости."""
+        if not self.client.collection_exists(NOTES_COLLECTION_NAME):
+            vector_size = self.embedder.get_vector_size()
+            self.client.create_collection(
+                collection_name=NOTES_COLLECTION_NAME,
                 vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
             )
             
@@ -260,3 +270,162 @@ class MemoryDatabase:
         # Сортировка по дате создания (новые сверху)
         output.sort(key=lambda x: x.get("created_at", ""), reverse=True)
         return output
+
+    def delete_note_chunks(self, memory_id: str) -> bool:
+        """Удаляет все чанки заметки по ее memory_id."""
+        try:
+            self.client.delete(
+                collection_name=NOTES_COLLECTION_NAME,
+                points_selector=Filter(
+                    must=[
+                        FieldCondition(
+                            key="memory_id",
+                            match=MatchValue(value=memory_id)
+                        )
+                    ]
+                )
+            )
+            return True
+        except Exception as e:
+            import sys
+            print(f"Ошибка при удалении чанков для memory_id {memory_id}: {e}", file=sys.stderr)
+            return False
+
+    def save_note_chunks(
+        self,
+        memory_id: str,
+        file_path: str,
+        content_hash: str,
+        chunks: List[Dict[str, Any]]
+    ) -> bool:
+        """
+        Сохраняет список чанков заметки в Qdrant.
+        Перед записью удаляет старые чанки для этой memory_id.
+        """
+        # Сначала очистим старые чанки
+        self.delete_note_chunks(memory_id)
+        
+        if not chunks:
+            return True
+            
+        points = []
+        for idx, chunk in enumerate(chunks):
+            chunk_text = chunk.get("text", "")
+            if not chunk_text.strip():
+                continue
+                
+            # Генерируем UUID на основе memory_id и индекса, чтобы ID были стабильными
+            chunk_id = str(uuid.uuid5(uuid.UUID(memory_id), f"chunk_{idx}"))
+            
+            try:
+                vector = self.embedder.get_embedding(chunk_text)
+            except Exception as e:
+                import sys
+                print(f"Ошибка получения эмбеддинга для чанка {idx} {memory_id}: {e}", file=sys.stderr)
+                continue
+            
+            payload = {
+                "memory_id": memory_id,
+                "file_path": file_path,
+                "heading": chunk.get("heading", ""),
+                "content": chunk_text,
+                "hash": content_hash,
+                "last_indexed": datetime.utcnow().isoformat(),
+                "project_context": chunk.get("project_context", "global")
+            }
+            
+            points.append(
+                PointStruct(
+                    id=chunk_id,
+                    vector=vector,
+                    payload=payload
+                )
+            )
+            
+        if points:
+            try:
+                self.client.upsert(
+                    collection_name=NOTES_COLLECTION_NAME,
+                    points=points
+                )
+                return True
+            except Exception as e:
+                import sys
+                print(f"Ошибка сохранения чанков в Qdrant для memory_id {memory_id}: {e}", file=sys.stderr)
+                return False
+        return True
+
+    def search_notes(
+        self,
+        query: str,
+        limit: int = 5,
+        project_context: Optional[str] = None
+    ) -> List[Dict[str, Any]]:
+        """Выполняет семантический поиск по чанкам заметок."""
+        try:
+            vector = self.embedder.get_embedding(query)
+        except Exception as e:
+            import sys
+            print(f"Ошибка получения эмбеддинга для поискового запроса: {e}", file=sys.stderr)
+            return []
+        
+        must_conditions = []
+        if project_context:
+            must_conditions.append(
+                FieldCondition(key="project_context", match=MatchValue(value=project_context))
+            )
+            
+        query_filter = Filter(must=must_conditions) if must_conditions else None
+        
+        try:
+            results = self.client.query_points(
+                collection_name=NOTES_COLLECTION_NAME,
+                query=vector,
+                query_filter=query_filter,
+                limit=limit,
+                with_payload=True
+            ).points
+            
+            output = []
+            for res in results:
+                output.append({
+                    "id": res.id,
+                    "score": float(res.score),
+                    "memory_id": res.payload.get("memory_id"),
+                    "file_path": res.payload.get("file_path"),
+                    "heading": res.payload.get("heading"),
+                    "content": res.payload.get("content"),
+                    "project_context": res.payload.get("project_context"),
+                    "last_indexed": res.payload.get("last_indexed")
+                })
+            return output
+        except Exception as e:
+            import sys
+            print(f"Ошибка при поиске по заметкам в Qdrant: {e}", file=sys.stderr)
+            return []
+
+    def get_all_indexed_memory_ids(self) -> Dict[str, str]:
+        """Возвращает словарь {memory_id: file_path} для всех проиндексированных заметок."""
+        memory_ids = {}
+        try:
+            offset = None
+            while True:
+                points, offset = self.client.scroll(
+                    collection_name=NOTES_COLLECTION_NAME,
+                    limit=1000,
+                    with_payload=True,
+                    with_vectors=False,
+                    offset=offset
+                )
+                for pt in points:
+                    mid = pt.payload.get("memory_id")
+                    fp = pt.payload.get("file_path")
+                    if mid:
+                        memory_ids[mid] = fp
+                if offset is None:
+                    break
+        except Exception as e:
+            import sys
+            print(f"Ошибка получения списка memory_id из Qdrant: {e}", file=sys.stderr)
+        return memory_ids
+

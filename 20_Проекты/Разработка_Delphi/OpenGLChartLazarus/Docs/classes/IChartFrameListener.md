@@ -1,3 +1,8 @@
+---
+memory_id: 5200570d-2f7f-4c15-b751-f7b2518a12d8
+hash: 82655609fc1fa2b22039efdf77d14f49
+last_indexed: '2026-07-07T11:07:49.492615'
+---
 # IChartFrameListener
 
 ## Ответственность
@@ -25,4 +30,4 @@ Frame listener описывает реакцию на контекст: мышь
 - [TChartFrameListenerList](TChartFrameListenerList.md)
 - [TChartObject](TChartObject.md)
 - [TChartToolController](TChartToolController.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

@@ -1,3 +1,8 @@
+---
+memory_id: 1acf26ce-6772-48b1-8032-b2c2103b1cea
+hash: 170812e49bff3d599b4467fcd65faff2
+last_indexed: '2026-07-07T09:41:50.492259'
+---
 # 🛠️ Регламент эксплуатации ALF в Amvera
 
 Этот документ содержит инструкции по управлению проектом ALF (Active Lost & Found) в облаке Amvera.

@@ -1,3 +1,8 @@
+---
+memory_id: 094d22fa-e195-46fa-a8e4-093ae0687bc1
+hash: 014b7eea554f97f567637fd865add2c0
+last_indexed: '2026-07-07T09:42:17.134679'
+---
 # <a name="top"></a>📗 Modal Testing: Модальный анализ
 
 > [!IMPORTANT]

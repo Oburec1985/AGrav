@@ -1,3 +1,8 @@
+---
+memory_id: 89e9395e-2013-431d-8d2b-967258797258
+hash: 0c511d08fa0a8325c13dfcdc6808e933
+last_indexed: '2026-07-07T11:08:04.038008'
+---
 # TChartToolController
 
 ## Ответственность
@@ -30,4 +35,4 @@ Listener может отказаться от события, и тогда со
 - [IChartTool](IChartTool.md)
 - [IChartFrameListener](IChartFrameListener.md)
 - [TChartFrameListenerList](TChartFrameListenerList.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

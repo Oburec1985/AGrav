@@ -1,3 +1,8 @@
+---
+memory_id: 6d148df9-c5f0-4dc6-9c6a-2dd23ee497b0
+hash: 184fc63d0d0e7372db2036e1665854e4
+last_indexed: '2026-07-07T11:08:06.188949'
+---
 # TJsonChartSerializer
 
 ## Ответственность
@@ -28,4 +33,4 @@ JSON-реализация [IChartSerializer](IChartSerializer.md).
 - [IChartSerializer](IChartSerializer.md)
 - [TChartModel](TChartModel.md)
 - [TChartLayoutRect](TChartLayoutRect.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

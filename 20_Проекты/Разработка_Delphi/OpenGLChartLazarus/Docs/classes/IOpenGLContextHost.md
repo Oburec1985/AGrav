@@ -1,3 +1,8 @@
+---
+memory_id: 29bc446b-7c76-4247-a92f-704461ef7af5
+hash: 846b2ec36f0d9ffd8d5638ac875d16f1
+last_indexed: '2026-07-07T11:07:52.996894'
+---
 # IOpenGLContextHost
 
 ## Ответственность
@@ -18,4 +23,4 @@
 
 - [TOglChartControl](TOglChartControl.md)
 - [TOpenGLChartRenderer](TOpenGLChartRenderer.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

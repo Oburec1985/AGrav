@@ -1,3 +1,8 @@
+---
+memory_id: 10c42f19-0011-4999-81c9-54e9fdd608c9
+hash: c6c313a25733e09a357bab37709d40f2
+last_indexed: '2026-07-07T09:41:51.800781'
+---
 # 🏗 Глубокое погружение в архитектуру ALF (Architecture Deep Dive)
 
 **ALF** — *Active Lost & Found* (Активное Бюро Находок)

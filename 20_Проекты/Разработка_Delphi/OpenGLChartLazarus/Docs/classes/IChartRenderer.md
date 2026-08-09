@@ -1,3 +1,8 @@
+---
+memory_id: ec96ca60-7440-4ee9-8b28-5e1a33187cba
+hash: 924916a193c620fe87dd67d93de0c76e
+last_indexed: '2026-07-07T11:07:50.387509'
+---
 # IChartRenderer
 
 ## Ответственность
@@ -27,4 +32,4 @@ Renderer читает модель, но не меняет ее смыслово
 - [TChartModel](TChartModel.md)
 - [TChartDrawContext](TChartDrawContext.md)
 - [TChartObject](TChartObject.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

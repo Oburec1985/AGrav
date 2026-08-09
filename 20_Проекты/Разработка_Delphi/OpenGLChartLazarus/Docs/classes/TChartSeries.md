@@ -1,3 +1,8 @@
+---
+memory_id: 65ff7301-48c4-4c58-a71d-a177a748c334
+hash: 67c3320212be2644366097f7a5f692b5
+last_indexed: '2026-07-07T11:08:02.506685'
+---
 # TChartSeries
 
 ## Ответственность
@@ -23,4 +28,4 @@
 
 - [TChartPage](TChartPage.md)
 - [TLineSeries](TLineSeries.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

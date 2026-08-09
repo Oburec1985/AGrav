@@ -21,6 +21,7 @@ EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "sentence-transformers/
 
 # Имя коллекции в Qdrant
 COLLECTION_NAME = "agent_memories"
+NOTES_COLLECTION_NAME = "vault_notes"
 
 # Путь к локальному кэшу модели ONNX (чтобы не скачивать из сети при каждом развертывании)
 MODEL_CACHE_DIR = os.getenv("MODEL_CACHE_DIR", str(BASE_DIR / "model_cache"))

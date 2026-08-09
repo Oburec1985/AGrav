@@ -1,3 +1,8 @@
+---
+memory_id: fd37c996-cdf3-459a-abb4-1dd98d94834e
+hash: e3676e9c13601bb1a914b6cf6c74d1f7
+last_indexed: '2026-07-07T09:37:09.589957'
+---
 # Граф Знаний и Связей (Relationships)
 
 Данный файл служит "картой памяти" репозитория AGrav, отслеживая зависимости между проектами, устройствами и методологиями.
@@ -19,6 +24,8 @@ graph TD
 
     subgraph "10_Работа / Программирование"
         RLM["Recursive_Language_Models.md"]
+        LearnFixes["learn-from-fixes/SKILL.md"]
+        RuntimeProg["runtime-programming/SKILL.md"]
     end
 
     subgraph "00_Система"
@@ -53,6 +60,7 @@ graph TD
     Skills -.-> RelMap
     Skills --> CodeStd
     Skills -.-> RLM
+    Skills -.-> LearnFixes
     StaticHydroHall -.-> SensorsCalc
     StaticHydroHall -.-> ControlValveBook
     
@@ -87,6 +95,8 @@ graph TD
 | `Локализация_dxgettext.md`    | `Разработка_Delphi`        | References       | Инструмент для локализации проектов на Delphi.                                                                                    |
 | `анализ_статзала_гидронагружатели.md` | `Расчеты тензодатчиков.md` / `Control_Valve_Handbook_RU.md` | References | Рабочий анализ статзала опирается на измерение силы, гидроклапаны и датчики. |
 | `Recursive_Language_Models.md` | `Скиллы_ИИ.md`            | References       | Архитектурная методология ИИ-агентов для интерактивной работы со сверхдлинным контекстом. |
+| `learn-from-fixes/SKILL.md` | `Скиллы_ИИ.md` | Implements | Превращает подтверждённые исправления в системные или проектные правила предотвращения регрессий. |
+| `runtime-programming/SKILL.md` | `Код_Стандарты.md` / `Потоки_и_Память.md` | Implements | Операционализирует запрет alloc в RunTime hot path (MIC-185 audit 2026-07-24). |
 
 ---
 *Документ обновляется ИИ при каждом значимом изменении архитектуры или добавлении новых узлов.*

@@ -1,3 +1,8 @@
+---
+memory_id: 6a920dfc-a3fe-4900-9771-ab7d7405e162
+hash: 54566e4f250cf43d9b99c58e1f374e67
+last_indexed: '2026-07-07T11:08:18.486601'
+---
 # OpenGLChartLazarus: архитектурные размышления
 
 Этот документ фиксирует идеи до превращения их в окончательный API.
@@ -64,15 +69,15 @@ Float-размещение приоритетно при загрузке. Эт�
 
 В целевую архитектуру надо добавить:
 
-- базовый [TChartObject](classes/TChartObject.md);
-- описание геометрии [TChartLayoutRect](classes/TChartLayoutRect.md);
-- контекст отрисовки [TChartDrawContext](classes/TChartDrawContext.md);
-- интерфейс обработчика событий [IChartFrameListener](classes/IChartFrameListener.md);
-- список обработчиков [TChartFrameListenerList](classes/TChartFrameListenerList.md).
+- базовый [TChartObject](../classes/TChartObject.md);
+- описание геометрии [TChartLayoutRect](../classes/TChartLayoutRect.md);
+- контекст отрисовки [TChartDrawContext](../classes/TChartDrawContext.md);
+- интерфейс обработчика событий [IChartFrameListener](../classes/IChartFrameListener.md);
+- список обработчиков [TChartFrameListenerList](../classes/TChartFrameListenerList.md).
 
 ## Relationships
 
-- [Классовая структура](Классовая_структура.md)
-- [Структура компонента](Структура_компонента.md)
-- [TChartPage](classes/TChartPage.md)
-- [TChartObject](classes/TChartObject.md)
+- [Классовая структура](../architecture.md)
+- [Структура компонента](../architecture.md)
+- [TChartPage](../classes/TChartPage.md)
+- [TChartObject](../classes/TChartObject.md)

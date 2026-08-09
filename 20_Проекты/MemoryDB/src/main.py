@@ -107,6 +107,53 @@ def list_memory_facts(limit: int = 50) -> List[Dict[str, Any]]:
         logger.error(f"Error listing facts: {e}")
         return [{"error": f"Ошибка при выводе списка: {str(e)}"}]
 
+@mcp.tool()
+def sync_vault_notes(dry_run: bool = False) -> str:
+    """
+    Синхронизировать базу знаний AGrav с векторной БД Qdrant.
+    Сканирует все заметки (.md), выявляет изменения по хэшам,
+    разбивает на чанки и переиндексирует измененные.
+    
+    :param dry_run: Если True, выполнится только оценка изменений без записи в БД.
+    :return: Отчет о результатах синхронизации.
+    """
+    try:
+        from src.vault_indexer import VaultIndexer
+        indexer = VaultIndexer(db)
+        res = indexer.sync(dry_run=dry_run)
+        status = "[Dry Run] " if dry_run else ""
+        return (f"Синхронизация {status}завершена успешно. "
+                f"Создано новых индексов: {res['created']}, "
+                f"Обновлено: {res['updated']}, "
+                f"Пропущено: {res['skipped']}, "
+                f"Удалено устаревших: {res['deleted']}")
+    except Exception as e:
+        logger.error(f"Error syncing vault notes: {e}")
+        return f"Ошибка при синхронизации: {str(e)}"
+
+@mcp.tool()
+def search_vault_notes(
+    query: str,
+    limit: int = 5,
+    project_context: Optional[str] = None
+) -> List[Dict[str, Any]]:
+    """
+    Семантический (смысловой) поиск по тексту заметок всей базы знаний AGrav.
+    Использует Qdrant для нахождения наиболее релевантных чанков (абзацев/разделов) заметок.
+    
+    :param query: Поисковый запрос на естественном языке (например, "настройка DPI роутера").
+    :param limit: Количество результатов (по умолчанию 5).
+    :param project_context: Фильтр по контексту проекта (например, "RecorderLnx" или "15_Дом").
+    :return: Список найденных чанков с текстом, путями к файлам и оценками релевантности (score).
+    """
+    try:
+        logger.info(f"Searching vault notes for query: '{query}'")
+        results = db.search_notes(query, limit, project_context)
+        return results
+    except Exception as e:
+        logger.error(f"Error searching vault notes: {e}")
+        return [{"error": f"Ошибка при поиске по заметкам: {str(e)}"}]
+
 if __name__ == "__main__":
     # Запускаем MCP сервер с использованием stdio транспорта (обмен по stdin/stdout)
     mcp.run(transport='stdio')

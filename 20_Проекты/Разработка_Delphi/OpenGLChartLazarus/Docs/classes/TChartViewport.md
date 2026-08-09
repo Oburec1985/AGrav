@@ -1,3 +1,8 @@
+---
+memory_id: fde0f90d-0acb-4ea3-810d-a7461191681a
+hash: 9ec7fad8a73212fde0ade2e2dfe84cae
+last_indexed: '2026-07-07T11:08:04.807740'
+---
 # TChartViewport
 
 ## Ответственность
@@ -33,4 +38,4 @@ Viewport не равен layout страницы. Layout отвечает за �
 - [TChartPage](TChartPage.md)
 - [TChartLayoutRect](TChartLayoutRect.md)
 - [TChartDrawContext](TChartDrawContext.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

@@ -1,3 +1,8 @@
+---
+memory_id: 92f44aee-9d7f-4554-91e4-60f9357978e6
+hash: 969c9f524aed61026fd22be81b47856d
+last_indexed: '2026-07-07T11:07:58.266200'
+---
 # TChartLayoutRect
 
 ## Ответственность
@@ -30,4 +35,4 @@ Float-координаты нужны как основной способ во�
 - [TChartObject](TChartObject.md)
 - [TChartPage](TChartPage.md)
 - [TChartViewport](TChartViewport.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

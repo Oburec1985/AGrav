@@ -1,3 +1,8 @@
+---
+memory_id: 6ddbaae3-31d0-4318-84fd-d8177286cbe8
+hash: 94450a828d0e05227e86d889e97a1d32
+last_indexed: '2026-07-07T11:08:13.244645'
+---
 # TZoomTool
 
 ## Ответственность
@@ -24,4 +29,4 @@ Zoom меняет viewport данных внутри страницы. Он не
 - [IChartTool](IChartTool.md)
 - [IChartFrameListener](IChartFrameListener.md)
 - [TChartViewport](TChartViewport.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

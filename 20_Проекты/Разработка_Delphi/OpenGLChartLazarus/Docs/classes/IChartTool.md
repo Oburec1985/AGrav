@@ -1,3 +1,8 @@
+---
+memory_id: a19beb64-e534-42cf-ab9a-c9d79625f8ad
+hash: 19f6156ca11f80871f695485316413d8
+last_indexed: '2026-07-07T11:07:52.352703'
+---
 # IChartTool
 
 ## Ответственность
@@ -31,4 +36,4 @@
 - [TChartToolController](TChartToolController.md)
 - [IChartFrameListener](IChartFrameListener.md)
 - [TChartFrameListenerList](TChartFrameListenerList.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

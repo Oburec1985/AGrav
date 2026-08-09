@@ -1,3 +1,8 @@
+---
+memory_id: b9f013dd-a2c0-447e-a599-8837fac1776b
+hash: 65ced40d9cdb7ac838532f3e275c9239
+last_indexed: '2026-07-07T11:08:01.678414'
+---
 # TChartPage
 
 ## Ответственность
@@ -61,4 +66,4 @@ Float-координаты приоритетны при загрузке: он�
 - [TChartObject](TChartObject.md)
 - [TChartLayoutRect](TChartLayoutRect.md)
 - [IChartFrameListener](IChartFrameListener.md)
-- [Классовая структура](../Классовая_структура.md)
+- [Классовая структура](../architecture.md)

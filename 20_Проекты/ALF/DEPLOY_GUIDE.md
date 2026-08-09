@@ -1,3 +1,8 @@
+---
+memory_id: 0d74f587-0d8e-4afa-ae4e-8cf8ebdd0adb
+hash: d1fed7f1dcb27683dd23868d12eb99e7
+last_indexed: '2026-07-07T09:41:48.723370'
+---
 # 🚀 Инструкция: Деплой ALF (Amvera Edition)
 
 Проект ALF (Active Lost & Found) теперь настроен для работы в облаке Amvera с использованием Docker.

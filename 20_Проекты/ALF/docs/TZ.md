@@ -1,3 +1,8 @@
+---
+memory_id: 10da55d0-ae87-471f-a7a8-6dc672e0b7a4
+hash: 4892f1e0371ee9d9d95070b3b780ee31
+last_indexed: '2026-07-07T09:41:53.653411'
+---
 # ТЗ: Бюро находок (ALF — Active Lost & Found)
 
 ## 1. Общие сведения

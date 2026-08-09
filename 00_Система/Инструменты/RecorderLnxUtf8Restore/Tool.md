@@ -1,3 +1,8 @@
+---
+memory_id: 9643130c-82b7-442c-8f2a-d9bdeb59a3f2
+hash: be8cd52b7c4f764ade89d863c2302ac4
+last_indexed: '2026-07-07T11:07:27.949291'
+---
 # RecorderLnxUtf8Restore
 
 Восстановление кириллицы в `.pas` RecorderLnx после поломки кодировки (`???` в комментариях).
@@ -51,4 +56,4 @@ C:\lazarus\lazbuild.exe -B RecorderLnx.lpi
 
 См. `RecorderLnx/Docs/source-encoding.md` и AGrav `10_Кодировка_Исходников.md`.
 
-Связано: [[20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Docs/10_Кодировка_Исходников]]
+Связано: `Кодировка исходников RecorderLnx` (документ отсутствует)

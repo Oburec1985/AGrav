@@ -1,3 +1,8 @@
+---
+memory_id: 9dff005f-9bc7-462b-b424-573e88db79c2
+hash: f15aaa42d5d299d091b1171097ea56ad
+last_indexed: '2026-07-07T09:41:54.232450'
+---
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

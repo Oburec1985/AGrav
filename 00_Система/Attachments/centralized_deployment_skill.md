@@ -1,3 +1,8 @@
+---
+memory_id: 1738e876-45ef-4a1e-81d1-55cdff1e0504
+hash: 97412844037baba635d5767e69ffee13
+last_indexed: '2026-07-07T09:37:12.569360'
+---
 # Skill: Centralized Deployment Configuration
 
 **Purpose**: Provide a guideline for projects that need to run in multiple environments (local development, cloud platforms such as Amvera, etc.).
