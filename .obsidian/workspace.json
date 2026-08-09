@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Работа/Программирование/Методологии/Recursive_Language_Models.md",
+                "file": "00_Система/01_Персональные_Данные/Аккаунты.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recursive_Language_Models"
+              "title": "Аккаунты"
+            }
+          },
+          {
+            "id": "a650da87a57c918c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Система/01_Персональные_Данные/Аккаунты.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Аккаунты"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -170,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,14 +200,16 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "4ba6b92f2658fcc9",
+  "active": "a650da87a57c918c",
   "lastOpenFiles": [
+    "00_Система/01_Персональные_Данные/Selectel.md",
+    "00_Система/01_Персональные_Данные/Аккаунты.md",
+    "10_Работа/Программирование/Методологии/Recursive_Language_Models.md",
     "00_Система/skills/rlm-search/reference.md",
     "00_Система/skills/rlm-search/SKILL.md",
     "00_Система/skills/rlm-search",
     "00_Система/skills",
     "00_Система/Оглавление.md",
-    "00_Система/01_Персональные_Данные/Аккаунты.md",
     "90_Архив/История_изменений.md",
     "00_Система/Скиллы_ИИ.md",
     "10_Работа/анализ_статзала_гидронагружатели.md",
@@ -214,8 +233,6 @@
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TOglChartControl.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TLineSeries.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TJsonChartSerializer.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TCursorTool.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TChartViewport.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_03_Графические_объекты",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_01_Костяк_компонента",

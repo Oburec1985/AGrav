@@ -1,0 +1,83 @@
+{
+  "manifest_version": 2,
+  "name": "Yandex Video Ad Cleaner",
+  "version": "1.0.2",
+  "description": "Блокирует и скрывает рекламные элементы на страницах Яндекс Видео.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "*://yandex.ru/video/*",
+    "*://*.yandex.ru/video/*",
+    "*://*.yastatic.net/video-player/*",
+    "*://nmcorp.video/*",
+    "*://*.nmcorp.video/*",
+    "*://semyana.top/*",
+    "*://*.semyana.top/*",
+    "*://*.semyana.com/*",
+    "*://pornoembed.info/*",
+    "*://*.pornoembed.info/*",
+    "*://porno-erotic.com/*",
+    "*://*.porno-erotic.com/*",
+    "*://p0sembed.com/*",
+    "*://*.p0sembed.com/*",
+    "*://*.ahmybid.net/*",
+    "*://*.lotory.top/*",
+    "*://iwad.cachefly.net/*",
+    "*://*.adfox.ru/*",
+    "*://*.yandexadexchange.net/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "web_accessible_resources": [
+    "injected.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://yandex.ru/video/*",
+        "*://*.yandex.ru/video/*",
+        "*://*.yastatic.net/video-player/*",
+        "*://nmcorp.video/*",
+        "*://*.nmcorp.video/*",
+        "*://semyana.top/*",
+        "*://*.semyana.top/*",
+        "*://*.semyana.com/*",
+        "*://pornoembed.info/*",
+        "*://*.pornoembed.info/*",
+        "*://porno-erotic.com/*",
+        "*://*.porno-erotic.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ],
+  "browser_action": {
+    "default_title": "Yandex Video Ad Cleaner",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}

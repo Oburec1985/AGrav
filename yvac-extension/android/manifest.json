@@ -1,0 +1,76 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex Video Ad Cleaner Android",
+  "version": "1.0.0",
+  "description": "Kiwi Browser version: blocks known video ad hosts and skips embedded player ads.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "yvac_android_rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injected.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://yandex.ru/video/*",
+        "*://*.yandex.ru/video/*",
+        "*://*.yastatic.net/video-player/*",
+        "*://nmcorp.video/*",
+        "*://*.nmcorp.video/*",
+        "*://semyana.top/*",
+        "*://*.semyana.top/*",
+        "*://*.semyana.com/*",
+        "*://pornoembed.info/*",
+        "*://*.pornoembed.info/*",
+        "*://porno-erotic.com/*",
+        "*://*.porno-erotic.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ],
+  "action": {
+    "default_title": "YVAC Android",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
