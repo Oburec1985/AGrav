@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Работа/Оборудование/Методики/Тензо/Тензокалькулятор.md",
+                "file": "00_Система/01_Персональные_Данные/Аккаунты.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Тензокалькулятор"
+              "title": "Аккаунты"
+            }
+          },
+          {
+            "id": "a650da87a57c918c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Система/01_Персональные_Данные/Аккаунты.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Аккаунты"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,46 +200,46 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "b4bf380014a8d5a2",
+  "active": "a650da87a57c918c",
   "lastOpenFiles": [
+    "00_Система/01_Персональные_Данные/Selectel.md",
     "00_Система/01_Персональные_Данные/Аккаунты.md",
-    "10_Работа/Оборудование/Методики/Тензо/Тензокалькулятор.md",
-    "10_Работа/Оборудование/Методики/Тензо",
-    "10_Работа/Оборудование/Методики",
-    "00_Система/skills/runtime-programming/SKILL.md",
-    "90_Архив/История_изменений.md",
-    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Вибропреобразователь/Ускорения/С цифровым выходом/Вибропреобразователь AP2047D.md",
-    "scratch/find_high_temp_v2.py",
-    "scratch/pressure_report.txt",
-    "scratch/generate_pressure_report.py",
-    "scratch/find_high_temp_sensors.py",
-    "scratch/find_pressure_sensors.py",
-    "scratch/find_sensors.py",
-    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/парсер/инструкция.md",
-    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Датчик акустический/Датчик акустический GT400.md",
-    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Датчик акустический/!Оглавление_Датчик акустический.md",
-    "10_Работа/Оборудование/Датчики/GlobalTest/Каталог_Датчиков.md",
-    "10_Работа/Оборудование/Датчики/GlobalTest/Таблица_датчики.md",
-    "10_Работа/Оборудование/Датчики/GlobalTest/Notes/датчики/GlobalTest_Sensors/Акселерометры/Ускорения/С зарядовым выходом/Миниатюрный/Однокомпонентный/Акселерометр AP1019.md",
-    "00_Система/Obsidian/План работ по внедрению Obsidian.md",
-    "00_Система/Инструменты.md",
-    "00_Система/Код_Стандарты.md",
-    "00_Система/Оглавление.md",
-    "00_Система/Технологический_стек.md",
-    "README_AI.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes/01_Иерархия_классов_cChart.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/метода_кодирования.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Оглавление.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Описание.md",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Приложения/Pasted image 20260428235059.png",
-    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Summary.md",
-    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Summary.md",
     "10_Работа/Программирование/Методологии/Recursive_Language_Models.md",
     "00_Система/skills/rlm-search/reference.md",
     "00_Система/skills/rlm-search/SKILL.md",
     "00_Система/skills/rlm-search",
     "00_Система/skills",
+    "00_Система/Оглавление.md",
+    "90_Архив/История_изменений.md",
+    "00_Система/Скиллы_ИИ.md",
+    "10_Работа/анализ_статзала_гидронагружатели.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/Summary.md",
+    "20_Проекты/Разработка_Delphi/Lazarus/RecorderLnx/cach/plan.md",
     "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Приложения/Pasted image 20260428235456.png",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Приложения/Pasted image 20260428235059.png",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Приложения",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/02_Design_Notes.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/04_User_Events.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/03_Render_Tree.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_01_Костяк_компонента/02_Structure.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения/01_Class_Diagram.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_01_Костяк_компонента/01_Skeleton.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes/01_Иерархия_классов_cChart.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TZoomTool.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TXmlChartSerializer.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TSelectTool.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TPanTool.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TOpenGLChartRenderer.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TOglChartControl.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TLineSeries.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes/TJsonChartSerializer.md",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_03_Графические_объекты",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_02_Архитектурные_решения",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/Глава_01_Костяк_компонента",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/uTestRussianText.pas",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/notes",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs/classes",
+    "20_Проекты/Разработка_Delphi/OpenGLChartLazarus/Docs",
     "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/0V6A0028.jpg",
     "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/0V6A0024-1.jpg",
     "10_Работа/Оборудование/Датчики/GlobalTest/Attachments/0V6A0014-2-1.jpg",

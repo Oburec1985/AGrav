@@ -1,0 +1,42 @@
+[data-ad],
+[data-advert],
+[data-adfox],
+[id*="adfox" i],
+[class*="adfox" i],
+[class*="advert" i],
+[class*="banner" i],
+[class*="commercial" i],
+.afs_ads,
+.ad-placement,
+.DirectInlineContainer,
+.VideoViewer-Direct,
+.VideoViewer-DirectSkeleton,
+.VideoViewer-VideoListPageDirect,
+.VideoViewer-VideoListDirectSkeleton,
+[aria-label*="реклам" i],
+[title*="реклам" i],
+iframe[src*="adfox"],
+iframe[src*="an.yandex"],
+iframe[src*="yabs.yandex"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.jw-ad,
+#player_box_vast,
+.jw-plugin-vast,
+.jw-flag-ads .jw-ad,
+.jw-flag-ads .jw-ad-container,
+.jw-flag-ads .jw-ad-companion,
+.jw-flag-ads .jw-controls-backdrop,
+.jw-flag-ads [class*="advert" i],
+.jw-flag-ads [class*="banner" i] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+body.yvac-cleaning video {
+  visibility: visible !important;
+}

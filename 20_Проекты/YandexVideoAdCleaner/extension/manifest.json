@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+  "name": "Yandex Video Ad Cleaner",
+  "version": "1.0.1",
+  "description": "Блокирует и скрывает рекламные элементы на страницах Яндекс Видео.",
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "*://yandex.ru/video/*",
+    "*://*.yandex.ru/video/*",
+    "*://*.yastatic.net/video-player/*",
+    "*://nmcorp.video/*",
+    "*://*.nmcorp.video/*",
+    "*://*.lotory.top/*",
+    "*://*.adfox.ru/*",
+    "*://*.yandexadexchange.net/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "web_accessible_resources": [
+    "injected.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://yandex.ru/video/*",
+        "*://*.yandex.ru/video/*",
+        "*://*.yastatic.net/video-player/*",
+        "*://nmcorp.video/*",
+        "*://*.nmcorp.video/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ],
+  "browser_action": {
+    "default_title": "Yandex Video Ad Cleaner"
+  }
+}
