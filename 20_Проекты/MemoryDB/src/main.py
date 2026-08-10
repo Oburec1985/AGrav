@@ -154,6 +154,35 @@ def search_vault_notes(
         logger.error(f"Error searching vault notes: {e}")
         return [{"error": f"Ошибка при поиске по заметкам: {str(e)}"}]
 
+@mcp.tool()
+def sync_original_recorder_sources(dry_run: bool = False) -> str:
+    """Index configured read-only source directories of original Recorder."""
+    try:
+        from src.source_indexer import SourceIndexer
+        stats = SourceIndexer(db).sync_original_recorder(dry_run=dry_run)
+        return f"Original Recorder source sync completed: {stats}"
+    except Exception as e:
+        logger.error(f"Original Recorder source sync failed: {e}")
+        return f"Original Recorder source sync failed: {e}"
+
+
+@mcp.tool()
+def search_original_recorder_sources(
+    query: str,
+    limit: int = 8
+) -> List[Dict[str, Any]]:
+    """Semantic search over read-only original Recorder source chunks."""
+    try:
+        return db.search_source_code(
+            query=query,
+            limit=limit,
+            project_context="original-recorder",
+            source_kind="original-recorder")
+    except Exception as e:
+        logger.error(f"Original Recorder semantic search failed: {e}")
+        return [{"error": str(e)}]
+
+
 if __name__ == "__main__":
     # Запускаем MCP сервер с использованием stdio транспорта (обмен по stdin/stdout)
     mcp.run(transport='stdio')

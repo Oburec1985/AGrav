@@ -5,7 +5,8 @@ from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue, MatchAny
 
-from src.config import DB_PATH, COLLECTION_NAME, NOTES_COLLECTION_NAME, RECORDS_DIR
+from src.config import (DB_PATH, COLLECTION_NAME, NOTES_COLLECTION_NAME,
+                        SOURCE_COLLECTION_NAME, RECORDS_DIR)
 from src.embeddings import LocalEmbedder
 
 class MemoryDatabase:
@@ -16,6 +17,7 @@ class MemoryDatabase:
         self.embedder = LocalEmbedder()
         self._ensure_collection()
         self._ensure_notes_collection()
+        self._ensure_source_collection()
         self._sync_with_disk()
         
     def _sync_with_disk(self):
@@ -134,6 +136,15 @@ class MemoryDatabase:
             vector_size = self.embedder.get_vector_size()
             self.client.create_collection(
                 collection_name=NOTES_COLLECTION_NAME,
+                vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
+            )
+
+    def _ensure_source_collection(self):
+        """Create the collection used for read-only source-code chunks."""
+        if not self.client.collection_exists(SOURCE_COLLECTION_NAME):
+            vector_size = self.embedder.get_vector_size()
+            self.client.create_collection(
+                collection_name=SOURCE_COLLECTION_NAME,
                 vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
             )
             
@@ -429,3 +440,118 @@ class MemoryDatabase:
             print(f"Ошибка получения списка memory_id из Qdrant: {e}", file=sys.stderr)
         return memory_ids
 
+    def delete_source_chunks(self, source_id: str) -> bool:
+        """Delete every indexed chunk belonging to one source file."""
+        try:
+            self.client.delete(
+                collection_name=SOURCE_COLLECTION_NAME,
+                points_selector=Filter(must=[FieldCondition(
+                    key="source_id", match=MatchValue(value=source_id)
+                )])
+            )
+            return True
+        except Exception as exc:
+            import sys
+            print(f"Source chunk deletion failed for {source_id}: {exc}", file=sys.stderr)
+            return False
+
+    def save_source_chunks(self, source_id: str, file_path: str,
+                           content_hash: str, chunks: List[Dict[str, Any]],
+                           project_context: str, source_kind: str) -> bool:
+        """Replace indexed chunks for a read-only source file."""
+        self.delete_source_chunks(source_id)
+        prepared = []
+        for idx, chunk in enumerate(chunks):
+            content = chunk.get("text", "").strip()
+            if not content:
+                continue
+            semantic_text = (f"File: {file_path}\nSymbol: {chunk.get('symbol', '')}\n"
+                             f"Lines: {chunk.get('line_start')}-{chunk.get('line_end')}\n"
+                             f"{content}")
+            prepared.append((idx, chunk, content, semantic_text))
+
+        if not prepared:
+            return True
+
+        vectors = self.embedder.get_embeddings(
+            [item[3] for item in prepared])
+        points = []
+        for (idx, chunk, content, _semantic_text), vector in zip(prepared, vectors):
+            point_id = str(uuid.uuid5(uuid.UUID(source_id), f"chunk_{idx}"))
+            points.append(PointStruct(
+                id=point_id,
+                vector=vector,
+                payload={
+                    "source_id": source_id,
+                    "file_path": file_path,
+                    "symbol": chunk.get("symbol", ""),
+                    "line_start": chunk.get("line_start", 1),
+                    "line_end": chunk.get("line_end", 1),
+                    "content": content,
+                    "hash": content_hash,
+                    "project_context": project_context,
+                    "source_kind": source_kind,
+                    "last_indexed": datetime.utcnow().isoformat(),
+                }
+            ))
+        if points:
+            self.client.upsert(collection_name=SOURCE_COLLECTION_NAME, points=points)
+        return True
+
+    def search_source_code(self, query: str, limit: int = 8,
+                           project_context: Optional[str] = None,
+                           source_kind: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Semantic search over indexed source-code chunks."""
+        conditions = []
+        if project_context:
+            conditions.append(FieldCondition(
+                key="project_context", match=MatchValue(value=project_context)))
+        if source_kind:
+            conditions.append(FieldCondition(
+                key="source_kind", match=MatchValue(value=source_kind)))
+        result = self.client.query_points(
+            collection_name=SOURCE_COLLECTION_NAME,
+            query=self.embedder.get_embedding(query),
+            query_filter=Filter(must=conditions) if conditions else None,
+            limit=limit, with_payload=True).points
+        return [{
+            "id": item.id,
+            "score": float(item.score),
+            "file_path": item.payload.get("file_path"),
+            "symbol": item.payload.get("symbol"),
+            "line_start": item.payload.get("line_start"),
+            "line_end": item.payload.get("line_end"),
+            "content": item.payload.get("content"),
+            "project_context": item.payload.get("project_context"),
+            "source_kind": item.payload.get("source_kind"),
+        } for item in result]
+
+    def get_all_indexed_source_ids(self, source_kind: Optional[str] = None) -> Dict[str, str]:
+        """Return source ids and paths currently present in the source collection."""
+        result = {}
+        offset = None
+        query_filter = None
+        if source_kind:
+            query_filter = Filter(must=[FieldCondition(
+                key="source_kind", match=MatchValue(value=source_kind))])
+        while True:
+            points, offset = self.client.scroll(
+                collection_name=SOURCE_COLLECTION_NAME,
+                scroll_filter=query_filter, limit=1000, with_payload=True,
+                with_vectors=False, offset=offset)
+            for item in points:
+                source_id = item.payload.get("source_id")
+                if source_id:
+                    result[source_id] = item.payload.get("file_path")
+            if offset is None:
+                break
+        return result
+
+    def source_hash(self, source_id: str) -> Optional[str]:
+        """Return the stored content hash for one indexed source file."""
+        points, _ = self.client.scroll(
+            collection_name=SOURCE_COLLECTION_NAME,
+            scroll_filter=Filter(must=[FieldCondition(
+                key="source_id", match=MatchValue(value=source_id))]),
+            limit=1, with_payload=True, with_vectors=False)
+        return points[0].payload.get("hash") if points else None

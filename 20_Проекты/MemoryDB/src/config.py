@@ -22,7 +22,18 @@ EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "sentence-transformers/
 # Имя коллекции в Qdrant
 COLLECTION_NAME = "agent_memories"
 NOTES_COLLECTION_NAME = "vault_notes"
+SOURCE_COLLECTION_NAME = "source_code"
+
+# Read-only source trees indexed for semantic code archaeology.
+ORIGINAL_RECORDER_ROOT = Path(os.getenv(
+    "ORIGINAL_RECORDER_ROOT", r"D:\works\windev-v3.9"
+))
+ORIGINAL_RECORDER_DIRS = tuple(filter(None, os.getenv(
+    "ORIGINAL_RECORDER_DIRS",
+    "mr;rc_core;rc_guisrv;rc_conui;rc_ctrpn;rc_utils;plugins/rcsdk;"
+    "mtc;mtcEthernet81;mdpEthernet81;MIC140_96_rce;MIC140pp_rce;devapi;"
+    "examples/mebius.daq"
+).split(";")))
 
 # Путь к локальному кэшу модели ONNX (чтобы не скачивать из сети при каждом развертывании)
 MODEL_CACHE_DIR = os.getenv("MODEL_CACHE_DIR", str(BASE_DIR / "model_cache"))
-
